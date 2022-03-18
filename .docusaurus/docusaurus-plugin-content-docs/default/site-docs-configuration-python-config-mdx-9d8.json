@@ -1,0 +1,22 @@
+{
+  "unversionedId": "configuration/python-config",
+  "id": "configuration/python-config",
+  "title": "Python",
+  "description": "MDX and React Components",
+  "source": "@site/docs/configuration/python-config.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/python-config",
+  "permalink": "/configuration/python-config",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Python",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "NodeJS",
+    "permalink": "/configuration/nodejs-config"
+  }
+}

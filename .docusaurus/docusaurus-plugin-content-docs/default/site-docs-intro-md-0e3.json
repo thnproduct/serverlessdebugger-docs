@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Introduction",
+  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud. Thundra sets up an easy and secure connection between your AWS Lambda functions and VSCode. Debug your serverless applications natively with their own permissions. Stop mocking resources and simulating the environments! Put breakpoints and pause the execution of the Node.js and Python functions to see the stack trace.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -15,9 +15,9 @@
     "sidebar_position": 1,
     "slug": "/"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "sidebar",
   "next": {
-    "title": "Create a Page",
-    "permalink": "/tutorial-basics/create-a-page"
+    "title": "VS Code",
+    "permalink": "/vs-code"
   }
 }

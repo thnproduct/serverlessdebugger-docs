@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/nodejs-config",
+  "id": "configuration/nodejs-config",
+  "title": "NodeJS",
+  "description": "This is Docusaurus green !",
+  "source": "@site/docs/configuration/nodejs-config.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/nodejs-config",
+  "permalink": "/configuration/nodejs-config",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "NodeJS",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "IntelliJ",
+    "permalink": "/intellij"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/configuration/python-config"
+  }
+}

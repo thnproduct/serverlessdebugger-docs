@@ -1,0 +1,22 @@
+{
+  "unversionedId": "test/burak",
+  "id": "test/burak",
+  "title": "burak",
+  "description": "This is Docusaurus green !",
+  "source": "@site/docs/test/burak.mdx",
+  "sourceDirName": "test",
+  "slug": "/test/burak",
+  "permalink": "/test/burak",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test/burak.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "markdown-features",
+    "permalink": "/test/markdown-features"
+  }
+}

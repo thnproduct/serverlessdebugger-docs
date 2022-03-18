@@ -1,0 +1,22 @@
+{
+  "unversionedId": "runtimes/burak",
+  "id": "runtimes/burak",
+  "title": "burak",
+  "description": "This is Docusaurus green !",
+  "source": "@site/docs/runtimes/burak.mdx",
+  "sourceDirName": "runtimes",
+  "slug": "/runtimes/burak",
+  "permalink": "/runtimes/burak",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/runtimes/burak.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "markdown-features",
+    "permalink": "/runtimes/markdown-features"
+  }
+}

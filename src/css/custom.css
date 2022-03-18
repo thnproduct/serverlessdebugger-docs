@@ -5,8 +5,13 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #4367FD;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -18,7 +23,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #4367FD;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -36,4 +41,68 @@
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+body{
+  @apply bg-gray-50;
+}
+a{
+  cursor: pointer;
+}
+a:hover{
+  text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  @apply text-gray-800;
+}
+p a{
+  @apply font-semibold text-blue-500 border-b-2 border-blue-500;
+}
+.navbar{
+  @apply backdrop-blur-3xl bg-white/90 shadow-sm
+}
+[data-theme='dark'] .navbar{
+  @apply backdrop-blur-3xl bg-zinc-900/90 shadow-sm
+}
+h1{
+  @apply text-5xl font-bold
+}
+h2{
+  @apply text-3xl font-bold
+}
+.menu__list-item-collapsible a{
+  @apply text-sm text-gray-400 mt-2;
+}
+.menu__list-item-collapsible:hover,
+.menu__list-item-collapsible a:hover{
+  @apply text-gray-400;
+  background:none;
+}
+.cols-2{
+  @apply grid grid-cols-2 gap-4;
+}
+.flex-x{
+  @apply flex;
+}
+svg[class*="icon"] {
+  display: inline;
+}
+a[class*="link"] span {
+  display: flex;
+  align-items: center;
+}
+.plugin-card-grid{
+  @apply flex items-center;
+}
+.plugin-card-grid img{
+  height:48px;
+}
+.plugin-card{
+  @apply p-4 bg-white rounded-xl shadow-md
+}
+.plugin-card:hover{
+  @apply shadow-lg
+}
+.plugin-card-title{
+  @apply text-xl font-semibold ml-4;
 }

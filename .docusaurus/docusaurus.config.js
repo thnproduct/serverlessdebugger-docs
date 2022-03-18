@@ -20,11 +20,10 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "/Users/burakkantarci/Dev/lambda-debugger-docs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarCollapsible": false
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/Users/burakkantarci/Dev/lambda-debugger-docs/src/css/custom.css"
@@ -34,25 +33,25 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Lambda Debugger Docs",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": " ",
+        "src": "img/alogo.svg"
       },
       "items": [
         {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "Changelog",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/thundra-io/thundra-vscode-issues/",
           "label": "GitHub",
           "position": "right"
         }
@@ -75,15 +74,7 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
+              "label": "Slack",
               "href": "https://twitter.com/docusaurus"
             }
           ]
@@ -102,7 +93,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Thundra, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -314,6 +305,9 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    null
+  ],
   "baseUrlIssueBanner": true,
   "i18n": {
     "defaultLocale": "en",
@@ -327,7 +321,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

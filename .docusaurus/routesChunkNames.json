@@ -125,52 +125,36 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
   },
-  "/indexaaaa-cb9": {
-    "component": "component---site-src-pages-indexaaaa-js-3-ba-831",
-    "config": "config---5-e-9-4f3"
+  "/indexxx-3f1": {
+    "component": "component---site-src-pages-indexxx-jsfa-9-6b9",
+    "config": "config---indexxx-5-e-9-807"
   },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-502": {
+  "/-ab0": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
-  "/-96c": {
+  "/-206": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---0-e-3-279"
+    "content": "content---f-84-df3"
   },
-  "/tutorial-basics/congratulations-4b2": {
+  "/configuration/nodejs-config-746": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-basics-congratulations-822-79f"
+    "content": "content---configuration-nodejs-configbbf-5ed"
   },
-  "/tutorial-basics/create-a-blog-post-93c": {
+  "/configuration/python-config-359": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-basics-create-a-blog-post-533-8b3"
+    "content": "content---configuration-python-config-9-d-8-f8c"
   },
-  "/tutorial-basics/create-a-document-58e": {
+  "/extensions/vs-code-d97": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-basics-create-a-document-1-e-4-f30"
+    "content": "content---vs-code-090-4fb"
   },
-  "/tutorial-basics/create-a-page-e6a": {
+  "/intellij-380": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-basics-create-a-page-5-c-8-d8b"
-  },
-  "/tutorial-basics/deploy-your-site-317": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-basics-deploy-your-sitef-55-bcd"
-  },
-  "/tutorial-basics/markdown-features-04e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-basics-markdown-features-18-c-d7b"
-  },
-  "/tutorial-extras/manage-docs-versions-975": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-extras-manage-docs-versionsdff-033"
-  },
-  "/tutorial-extras/translate-your-site-ac7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-extras-translate-your-sitee-44-f13"
+    "content": "content---intellij-14-b-55c"
   }
 }

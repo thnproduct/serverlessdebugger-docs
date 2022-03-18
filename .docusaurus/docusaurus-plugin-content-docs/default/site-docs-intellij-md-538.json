@@ -1,0 +1,28 @@
+{
+  "unversionedId": "intellij",
+  "id": "intellij",
+  "title": "IntelliJ",
+  "description": "Marketplace Download",
+  "source": "@site/docs/intellij.md",
+  "sourceDirName": ".",
+  "slug": "/intellij",
+  "permalink": "/intellij",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intellij.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "category": "x",
+    "slug": "/intellij"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "markdown-features",
+    "permalink": "/test/markdown-features"
+  }
+}

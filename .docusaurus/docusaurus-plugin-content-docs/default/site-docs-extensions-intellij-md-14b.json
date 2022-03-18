@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extensions/intellij",
+  "id": "extensions/intellij",
+  "title": "IntelliJ",
+  "description": "Marketplace Download",
+  "source": "@site/docs/extensions/intellij.md",
+  "sourceDirName": "extensions",
+  "slug": "/intellij",
+  "permalink": "/intellij",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/intellij"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "VS Code",
+    "permalink": "/extensions/vs-code"
+  },
+  "next": {
+    "title": "NodeJS",
+    "permalink": "/configuration/nodejs-config"
+  }
+}
