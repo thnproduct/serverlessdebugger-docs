@@ -16,8 +16,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "IntelliJ",
-    "permalink": "/intellij"
+    "title": "Eclipse",
+    "permalink": "/extensions/eclipse"
   },
   "next": {
     "title": "Python",

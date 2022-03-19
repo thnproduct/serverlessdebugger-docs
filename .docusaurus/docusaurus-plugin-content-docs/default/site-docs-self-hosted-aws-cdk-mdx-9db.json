@@ -1,0 +1,26 @@
+{
+  "unversionedId": "self-hosted/aws-cdk",
+  "id": "self-hosted/aws-cdk",
+  "title": "AWS CDK",
+  "description": "",
+  "source": "@site/docs/self-hosted/aws-cdk.mdx",
+  "sourceDirName": "self-hosted",
+  "slug": "/self-hosted-broker/aws-cdk",
+  "permalink": "/self-hosted-broker/aws-cdk",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/self-hosted-broker/aws-cdk"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Java",
+    "permalink": "/configuration/java-config"
+  },
+  "next": {
+    "title": "Manual",
+    "permalink": "/self-hosted-broker/manual"
+  }
+}

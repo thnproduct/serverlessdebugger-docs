@@ -1,0 +1,22 @@
+{
+  "unversionedId": "intro copy",
+  "id": "intro copy",
+  "title": "Introduction",
+  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+  "source": "@site/docs/intro copy.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/"
+  },
+  "sidebar": "sidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/"
+  }
+}

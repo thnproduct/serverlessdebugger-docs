@@ -46,17 +46,21 @@
 body{
   @apply bg-gray-50;
 }
+[data-theme='dark'] body {
+  @apply bg-zinc-900;
+}
+
 a{
   cursor: pointer;
 }
 a:hover{
   text-decoration:none;
 }
-h1,h2,h3,h4,h5,h6,p{
-  @apply text-gray-800;
-}
 p a{
   @apply font-semibold text-blue-500 border-b-2 border-blue-500;
+}
+p img{
+  @apply inline 
 }
 .navbar{
   @apply backdrop-blur-3xl bg-white/90 shadow-sm
@@ -64,11 +68,20 @@ p a{
 [data-theme='dark'] .navbar{
   @apply backdrop-blur-3xl bg-zinc-900/90 shadow-sm
 }
+h1, h2, h3, h4, h5{
+  @apply font-bold
+}
 h1{
-  @apply text-5xl font-bold
+  @apply text-5xl
 }
 h2{
-  @apply text-3xl font-bold
+  @apply text-3xl
+}
+h3{
+  @apply text-xl
+}
+ul{
+  @apply list-disc pl-4
 }
 .menu__list-item-collapsible a{
   @apply text-sm text-gray-400 mt-2;
@@ -79,7 +92,7 @@ h2{
   background:none;
 }
 .cols-2{
-  @apply grid grid-cols-2 gap-4;
+  @apply grid grid-cols-2 gap-4 mb-4;
 }
 .flex-x{
   @apply flex;

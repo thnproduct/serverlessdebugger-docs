@@ -17,6 +17,32 @@
           "contentPathLocalized": "/Users/burakkantarci/Dev/lambda-debugger-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "configuration/java-config",
+              "id": "configuration/java-config",
+              "title": "Java",
+              "description": "MDX and React Components",
+              "source": "@site/docs/configuration/java-config.mdx",
+              "sourceDirName": "configuration",
+              "slug": "/configuration/java-config",
+              "permalink": "/configuration/java-config",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Java",
+                "sidebar_position": 3
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Python",
+                "permalink": "/configuration/python-config"
+              },
+              "next": {
+                "title": "AWS CDK",
+                "permalink": "/self-hosted-broker/aws-cdk"
+              }
+            },
+            {
               "unversionedId": "configuration/nodejs-config",
               "id": "configuration/nodejs-config",
               "title": "NodeJS",
@@ -34,8 +60,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "IntelliJ",
-                "permalink": "/intellij"
+                "title": "Eclipse",
+                "permalink": "/extensions/eclipse"
               },
               "next": {
                 "title": "Python",
@@ -62,6 +88,36 @@
               "previous": {
                 "title": "NodeJS",
                 "permalink": "/configuration/nodejs-config"
+              },
+              "next": {
+                "title": "Java",
+                "permalink": "/configuration/java-config"
+              }
+            },
+            {
+              "unversionedId": "extensions/eclipse",
+              "id": "extensions/eclipse",
+              "title": "Eclipse",
+              "description": "Marketplace Download",
+              "source": "@site/docs/extensions/eclipse.md",
+              "sourceDirName": "extensions",
+              "slug": "/extensions/eclipse",
+              "permalink": "/extensions/eclipse",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "slug": "/extensions/eclipse"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Webstorm",
+                "permalink": "/extensions/webstorm"
+              },
+              "next": {
+                "title": "NodeJS",
+                "permalink": "/configuration/nodejs-config"
               }
             },
             {
@@ -86,8 +142,8 @@
                 "permalink": "/extensions/vs-code"
               },
               "next": {
-                "title": "NodeJS",
-                "permalink": "/configuration/nodejs-config"
+                "title": "Webstorm",
+                "permalink": "/extensions/webstorm"
               }
             },
             {
@@ -95,7 +151,7 @@
               "id": "extensions/vs-code",
               "title": "VS Code",
               "description": "Marketplace Download",
-              "source": "@site/docs/extensions/vs-code.md",
+              "source": "@site/docs/extensions/vs-code.mdx",
               "sourceDirName": "extensions",
               "slug": "/extensions/vs-code",
               "permalink": "/extensions/vs-code",
@@ -114,6 +170,32 @@
               "next": {
                 "title": "IntelliJ",
                 "permalink": "/intellij"
+              }
+            },
+            {
+              "unversionedId": "extensions/webstorm",
+              "id": "extensions/webstorm",
+              "title": "Webstorm",
+              "description": "Marketplace Download",
+              "source": "@site/docs/extensions/webstorm.md",
+              "sourceDirName": "extensions",
+              "slug": "/extensions/webstorm",
+              "permalink": "/extensions/webstorm",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "slug": "/extensions/webstorm"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "IntelliJ",
+                "permalink": "/intellij"
+              },
+              "next": {
+                "title": "Eclipse",
+                "permalink": "/extensions/eclipse"
               }
             },
             {
@@ -137,6 +219,54 @@
                 "title": "VS Code",
                 "permalink": "/extensions/vs-code"
               }
+            },
+            {
+              "unversionedId": "self-hosted/aws-cdk",
+              "id": "self-hosted/aws-cdk",
+              "title": "AWS CDK",
+              "description": "",
+              "source": "@site/docs/self-hosted/aws-cdk.mdx",
+              "sourceDirName": "self-hosted",
+              "slug": "/self-hosted-broker/aws-cdk",
+              "permalink": "/self-hosted-broker/aws-cdk",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/self-hosted-broker/aws-cdk"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Java",
+                "permalink": "/configuration/java-config"
+              },
+              "next": {
+                "title": "Manual",
+                "permalink": "/self-hosted-broker/manual"
+              }
+            },
+            {
+              "unversionedId": "self-hosted/manual-config",
+              "id": "self-hosted/manual-config",
+              "title": "Manual",
+              "description": "",
+              "source": "@site/docs/self-hosted/manual-config.mdx",
+              "sourceDirName": "self-hosted",
+              "slug": "/self-hosted-broker/manual",
+              "permalink": "/self-hosted-broker/manual",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "slug": "/self-hosted-broker/manual"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "AWS CDK",
+                "permalink": "/self-hosted-broker/aws-cdk"
+              }
             }
           ],
           "sidebars": {
@@ -158,12 +288,20 @@
                   {
                     "type": "doc",
                     "id": "extensions/intellij"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "extensions/webstorm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "extensions/eclipse"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Configuration",
+                "label": "Cloud Configuration",
                 "collapsible": false,
                 "collapsed": false,
                 "items": [
@@ -174,6 +312,26 @@
                   {
                     "type": "doc",
                     "id": "configuration/python-config"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "configuration/java-config"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Self-Hosted Configuration",
+                "collapsible": false,
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "self-hosted/aws-cdk"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "self-hosted/manual-config"
                   }
                 ]
               }

@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "configuration/java-config",
+              "path": "/configuration/java-config",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "configuration/nodejs-config",
               "path": "/configuration/nodejs-config",
               "sidebar": "sidebar"
@@ -18,6 +23,11 @@
             {
               "id": "configuration/python-config",
               "path": "/configuration/python-config",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "extensions/eclipse",
+              "path": "/extensions/eclipse",
               "sidebar": "sidebar"
             },
             {
@@ -31,8 +41,23 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "extensions/webstorm",
+              "path": "/extensions/webstorm",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "intro",
               "path": "/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "self-hosted/aws-cdk",
+              "path": "/self-hosted-broker/aws-cdk",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "self-hosted/manual-config",
+              "path": "/self-hosted-broker/manual",
               "sidebar": "sidebar"
             }
           ],

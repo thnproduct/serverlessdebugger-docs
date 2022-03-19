@@ -1,0 +1,22 @@
+{
+  "unversionedId": "self-hosted",
+  "id": "self-hosted",
+  "title": "Self Hosted Debugger",
+  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+  "source": "@site/docs/self-hosted.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "slug": "/"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Python",
+    "permalink": "/configuration/python-config"
+  }
+}

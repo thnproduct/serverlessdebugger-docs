@@ -105,11 +105,17 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','ab0'),
+    component: ComponentCreator('/','94f'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/','206'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/configuration/java-config',
+        component: ComponentCreator('/configuration/java-config','afd'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -126,14 +132,38 @@ export default [
         'sidebar': "sidebar"
       },
       {
+        path: '/extensions/eclipse',
+        component: ComponentCreator('/extensions/eclipse','76b'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
         path: '/extensions/vs-code',
-        component: ComponentCreator('/extensions/vs-code','d97'),
+        component: ComponentCreator('/extensions/vs-code','85d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/extensions/webstorm',
+        component: ComponentCreator('/extensions/webstorm','804'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
         path: '/intellij',
         component: ComponentCreator('/intellij','380'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/self-hosted-broker/aws-cdk',
+        component: ComponentCreator('/self-hosted-broker/aws-cdk','3e3'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/self-hosted-broker/manual',
+        component: ComponentCreator('/self-hosted-broker/manual','073'),
         exact: true,
         'sidebar': "sidebar"
       }

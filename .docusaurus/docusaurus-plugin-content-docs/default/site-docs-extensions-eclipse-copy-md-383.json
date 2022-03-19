@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extensions/eclipse copy",
+  "id": "extensions/eclipse copy",
+  "title": "Eclipse",
+  "description": "Marketplace Download",
+  "source": "@site/docs/extensions/eclipse copy.md",
+  "sourceDirName": "extensions",
+  "slug": "/extensions/eclipse",
+  "permalink": "/extensions/eclipse",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/extensions/eclipse"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "VS Code",
+    "permalink": "/extensions/vs-code"
+  },
+  "next": {
+    "title": "Eclipse",
+    "permalink": "/extensions/eclipse"
+  }
+}

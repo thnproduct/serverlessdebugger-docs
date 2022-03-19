@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration/java-config",
+  "id": "configuration/java-config",
+  "title": "Java",
+  "description": "MDX and React Components",
+  "source": "@site/docs/configuration/java-config.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/java-config",
+  "permalink": "/configuration/java-config",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Java",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Python",
+    "permalink": "/configuration/python-config"
+  },
+  "next": {
+    "title": "AWS CDK",
+    "permalink": "/self-hosted-broker/aws-cdk"
+  }
+}

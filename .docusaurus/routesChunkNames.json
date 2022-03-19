@@ -133,13 +133,17 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-ab0": {
+  "/-94f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
   "/-206": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---f-84-df3"
+  },
+  "/configuration/java-config-afd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---configuration-java-config-3-dc-978"
   },
   "/configuration/nodejs-config-746": {
     "component": "component---theme-doc-item-178-a40",
@@ -149,12 +153,28 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---configuration-python-config-9-d-8-f8c"
   },
-  "/extensions/vs-code-d97": {
+  "/extensions/eclipse-76b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---vs-code-090-4fb"
+    "content": "content---extensions-vs-code-3-ab-d8b"
+  },
+  "/extensions/vs-code-85d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---extensions-vs-codeffb-b35"
+  },
+  "/extensions/webstorm-804": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---extensions-eclipse-0-ef-351"
   },
   "/intellij-380": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---intellij-14-b-55c"
+  },
+  "/self-hosted-broker/aws-cdk-3e3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---self-hoster-aws-cdk-9-db-c13"
+  },
+  "/self-hosted-broker/manual-073": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---self-hoster-aws-cdk-78-a-f36"
   }
 }

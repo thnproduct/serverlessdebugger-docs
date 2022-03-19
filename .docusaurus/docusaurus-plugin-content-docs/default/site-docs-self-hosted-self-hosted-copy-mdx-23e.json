@@ -1,0 +1,22 @@
+{
+  "unversionedId": "self-hosted/self-hosted copy",
+  "id": "self-hosted/self-hosted copy",
+  "title": "Self Hosted Debugger",
+  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+  "source": "@site/docs/self-hosted/self-hosted copy.mdx",
+  "sourceDirName": "self-hosted",
+  "slug": "/self-hoster/aws-cdk",
+  "permalink": "/self-hoster/aws-cdk",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/self-hoster/aws-cdk"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Self Hosted Debugger",
+    "permalink": "/self-hoster/aws-cdk"
+  }
+}

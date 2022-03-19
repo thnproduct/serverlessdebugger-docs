@@ -31,12 +31,24 @@
             "label": "IntelliJ",
             "href": "/intellij",
             "docId": "extensions/intellij"
+          },
+          {
+            "type": "link",
+            "label": "Webstorm",
+            "href": "/extensions/webstorm",
+            "docId": "extensions/webstorm"
+          },
+          {
+            "type": "link",
+            "label": "Eclipse",
+            "href": "/extensions/eclipse",
+            "docId": "extensions/eclipse"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Configuration",
+        "label": "Cloud Configuration",
         "collapsible": false,
         "collapsed": false,
         "items": [
@@ -51,12 +63,44 @@
             "label": "Python",
             "href": "/configuration/python-config",
             "docId": "configuration/python-config"
+          },
+          {
+            "type": "link",
+            "label": "Java",
+            "href": "/configuration/java-config",
+            "docId": "configuration/java-config"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Self-Hosted Configuration",
+        "collapsible": false,
+        "collapsed": false,
+        "items": [
+          {
+            "type": "link",
+            "label": "AWS CDK",
+            "href": "/self-hosted-broker/aws-cdk",
+            "docId": "self-hosted/aws-cdk"
+          },
+          {
+            "type": "link",
+            "label": "Manual",
+            "href": "/self-hosted-broker/manual",
+            "docId": "self-hosted/manual-config"
           }
         ]
       }
     ]
   },
   "docs": {
+    "configuration/java-config": {
+      "id": "configuration/java-config",
+      "title": "Java",
+      "description": "MDX and React Components",
+      "sidebar": "sidebar"
+    },
     "configuration/nodejs-config": {
       "id": "configuration/nodejs-config",
       "title": "NodeJS",
@@ -67,6 +111,12 @@
       "id": "configuration/python-config",
       "title": "Python",
       "description": "MDX and React Components",
+      "sidebar": "sidebar"
+    },
+    "extensions/eclipse": {
+      "id": "extensions/eclipse",
+      "title": "Eclipse",
+      "description": "Marketplace Download",
       "sidebar": "sidebar"
     },
     "extensions/intellij": {
@@ -81,10 +131,28 @@
       "description": "Marketplace Download",
       "sidebar": "sidebar"
     },
+    "extensions/webstorm": {
+      "id": "extensions/webstorm",
+      "title": "Webstorm",
+      "description": "Marketplace Download",
+      "sidebar": "sidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Introduction",
       "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+      "sidebar": "sidebar"
+    },
+    "self-hosted/aws-cdk": {
+      "id": "self-hosted/aws-cdk",
+      "title": "AWS CDK",
+      "description": "",
+      "sidebar": "sidebar"
+    },
+    "self-hosted/manual-config": {
+      "id": "self-hosted/manual-config",
+      "title": "Manual",
+      "description": "",
       "sidebar": "sidebar"
     }
   }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extensions/eclipse",
+  "id": "extensions/eclipse",
+  "title": "Eclipse",
+  "description": "Marketplace Download",
+  "source": "@site/docs/extensions/eclipse.md",
+  "sourceDirName": "extensions",
+  "slug": "/extensions/eclipse",
+  "permalink": "/extensions/eclipse",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "slug": "/extensions/eclipse"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Webstorm",
+    "permalink": "/extensions/webstorm"
+  },
+  "next": {
+    "title": "NodeJS",
+    "permalink": "/configuration/nodejs-config"
+  }
+}

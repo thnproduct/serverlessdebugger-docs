@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
-slug: /extensions/vs-code
+sidebar_position: 3
+slug: /extensions/webstorm
 ---
 
-# VS Code
+# Webstorm
 ![Marketplace Download](https://vsmarketplacebadge.apphb.com/downloads-short/thundra.thundra-debugger.svg)
 ![Version](https://vsmarketplacebadge.apphb.com/version-short/thundra.thundra-debugger.svg)
 ![Rating](https://vsmarketplacebadge.apphb.com/rating-short/thundra.thundra-debugger.svg)

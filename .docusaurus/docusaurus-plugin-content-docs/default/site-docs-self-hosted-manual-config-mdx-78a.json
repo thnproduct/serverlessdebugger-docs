@@ -1,0 +1,22 @@
+{
+  "unversionedId": "self-hosted/manual-config",
+  "id": "self-hosted/manual-config",
+  "title": "Manual",
+  "description": "",
+  "source": "@site/docs/self-hosted/manual-config.mdx",
+  "sourceDirName": "self-hosted",
+  "slug": "/self-hosted-broker/manual",
+  "permalink": "/self-hosted-broker/manual",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "slug": "/self-hosted-broker/manual"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "AWS CDK",
+    "permalink": "/self-hosted-broker/aws-cdk"
+  }
+}

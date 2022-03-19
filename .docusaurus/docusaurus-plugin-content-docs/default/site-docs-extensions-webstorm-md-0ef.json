@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extensions/webstorm",
+  "id": "extensions/webstorm",
+  "title": "Webstorm",
+  "description": "Marketplace Download",
+  "source": "@site/docs/extensions/webstorm.md",
+  "sourceDirName": "extensions",
+  "slug": "/extensions/webstorm",
+  "permalink": "/extensions/webstorm",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/extensions/webstorm"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "IntelliJ",
+    "permalink": "/intellij"
+  },
+  "next": {
+    "title": "Eclipse",
+    "permalink": "/extensions/eclipse"
+  }
+}

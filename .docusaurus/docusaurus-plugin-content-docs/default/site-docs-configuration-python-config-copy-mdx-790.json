@@ -1,12 +1,12 @@
 {
-  "unversionedId": "configuration/python-config",
-  "id": "configuration/python-config",
+  "unversionedId": "configuration/python-config copy",
+  "id": "configuration/python-config copy",
   "title": "Python",
   "description": "MDX and React Components",
-  "source": "@site/docs/configuration/python-config.mdx",
+  "source": "@site/docs/configuration/python-config copy.mdx",
   "sourceDirName": "configuration",
-  "slug": "/configuration/python-config",
-  "permalink": "/configuration/python-config",
+  "slug": "/configuration/python-config copy",
+  "permalink": "/configuration/python-config copy",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -20,7 +20,7 @@
     "permalink": "/configuration/nodejs-config"
   },
   "next": {
-    "title": "Java",
-    "permalink": "/configuration/java-config"
+    "title": "Python",
+    "permalink": "/configuration/python-config"
   }
 }

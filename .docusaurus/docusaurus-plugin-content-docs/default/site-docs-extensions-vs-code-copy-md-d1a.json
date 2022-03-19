@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extensions/vs-code copy",
+  "id": "extensions/vs-code copy",
+  "title": "VS Code",
+  "description": "Marketplace Download",
+  "source": "@site/docs/extensions/vs-code copy.md",
+  "sourceDirName": "extensions",
+  "slug": "/extensions/vs-code",
+  "permalink": "/extensions/vs-code",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "slug": "/extensions/vs-code"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "VS Code",
+    "permalink": "/extensions/vs-code"
+  }
+}
