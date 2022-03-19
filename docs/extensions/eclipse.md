@@ -10,5 +10,3 @@ slug: /extensions/eclipse
 ![Community Channel](https://badgen.net/badge/Slack/Lambda%20Debugger?icon=slack)
 
 Start online debug sessions while the AWS Lambda functions run on AWS Cloud. Thundra sets up an easy and secure connection between your AWS Lambda functions and VSCode. Debug your serverless applications natively with their own permissions. Stop mocking resources and simulating the environments! Put breakpoints and pause the execution of the Node.js and Python functions to see the stack trace.
-
-![Community Channel](@site/static/img/thundra-vscode.gif)
