@@ -5,19 +5,20 @@
   "description": "MDX and React Components",
   "source": "@site/docs/configuration/java-config.mdx",
   "sourceDirName": "configuration",
-  "slug": "/configuration/java-config",
-  "permalink": "/configuration/java-config",
+  "slug": "/configuration/java",
+  "permalink": "/configuration/java",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
     "title": "Java",
+    "slug": "/configuration/java",
     "sidebar_position": 3
   },
   "sidebar": "sidebar",
   "previous": {
     "title": "Python",
-    "permalink": "/configuration/python-config"
+    "permalink": "/configuration/python"
   },
   "next": {
     "title": "AWS CDK",

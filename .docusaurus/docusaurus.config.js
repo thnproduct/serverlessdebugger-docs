@@ -4,15 +4,15 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "My Site",
+  "title": "Lambda Debugger Docs",
   "tagline": "Dinosaurs are cool",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "thundra",
+  "projectName": "lambda-debugger",
   "presets": [
     [
       "classic",
@@ -33,7 +33,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Lambda Debugger Docs",
+      "title": "Lambda Debugger",
       "logo": {
         "alt": " ",
         "src": "img/alogo.svg"
@@ -49,11 +49,6 @@ export default {
           "to": "/blog",
           "label": "Changelog",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/thundra-io/thundra-vscode-issues/",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -66,7 +61,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "/"
             }
           ]
         },

@@ -23,7 +23,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #4367FD;
+  --ifm-color-primary: rgb(56 189 248);
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -55,9 +55,16 @@ a{
 }
 a:hover{
   text-decoration:none;
+  @apply text-blue-800 border-blue-800;
+}
+[data-theme='dark'] a:hover{
+  text-decoration:none;
+  @apply text-cyan-400 border-cyan-400;
 }
 p a{
-  @apply font-semibold text-blue-500 border-b-2 border-blue-500;
+  @apply font-semibold border-b-2;
+  color: var(--ifm-color-primary);
+  border-bottom-color: var(--ifm-color-primary);
 }
 p img{
   @apply inline 
@@ -112,6 +119,9 @@ a[class*="link"] span {
 }
 .plugin-card{
   @apply p-4 bg-white rounded-xl shadow-md
+}
+[data-theme='dark'] .plugin-card{
+  @apply bg-zinc-800;
 }
 .plugin-card:hover{
   @apply shadow-lg

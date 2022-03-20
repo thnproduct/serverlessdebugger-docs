@@ -1,0 +1,22 @@
+{
+  "unversionedId": "self-hosted/CloudFormation-config",
+  "id": "self-hosted/CloudFormation-config",
+  "title": "CloudFormation",
+  "description": "",
+  "source": "@site/docs/self-hosted/CloudFormation-config.mdx",
+  "sourceDirName": "self-hosted",
+  "slug": "/self-hosted-broker/CloudFormation",
+  "permalink": "/self-hosted-broker/CloudFormation",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "slug": "/self-hosted-broker/CloudFormation"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "AWS CDK",
+    "permalink": "/self-hosted-broker/aws-cdk"
+  }
+}

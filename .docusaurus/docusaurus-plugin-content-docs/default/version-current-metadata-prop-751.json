@@ -55,19 +55,19 @@
           {
             "type": "link",
             "label": "NodeJS",
-            "href": "/configuration/nodejs-config",
+            "href": "/configuration/nodejs",
             "docId": "configuration/nodejs-config"
           },
           {
             "type": "link",
             "label": "Python",
-            "href": "/configuration/python-config",
+            "href": "/configuration/python",
             "docId": "configuration/python-config"
           },
           {
             "type": "link",
             "label": "Java",
-            "href": "/configuration/java-config",
+            "href": "/configuration/java",
             "docId": "configuration/java-config"
           }
         ]
@@ -86,9 +86,9 @@
           },
           {
             "type": "link",
-            "label": "Manual",
-            "href": "/self-hosted-broker/manual",
-            "docId": "self-hosted/manual-config"
+            "label": "CloudFormation",
+            "href": "/self-hosted-broker/CloudFormation",
+            "docId": "self-hosted/CloudFormation-config"
           }
         ]
       }
@@ -149,9 +149,9 @@
       "description": "",
       "sidebar": "sidebar"
     },
-    "self-hosted/manual-config": {
-      "id": "self-hosted/manual-config",
-      "title": "Manual",
+    "self-hosted/CloudFormation-config": {
+      "id": "self-hosted/CloudFormation-config",
+      "title": "CloudFormation",
       "description": "",
       "sidebar": "sidebar"
     }

@@ -5,22 +5,23 @@
   "description": "MDX and React Components",
   "source": "@site/docs/configuration/python-config.mdx",
   "sourceDirName": "configuration",
-  "slug": "/configuration/python-config",
-  "permalink": "/configuration/python-config",
+  "slug": "/configuration/python",
+  "permalink": "/configuration/python",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
     "title": "Python",
+    "slug": "/configuration/python",
     "sidebar_position": 2
   },
   "sidebar": "sidebar",
   "previous": {
     "title": "NodeJS",
-    "permalink": "/configuration/nodejs-config"
+    "permalink": "/configuration/nodejs"
   },
   "next": {
     "title": "Java",
-    "permalink": "/configuration/java-config"
+    "permalink": "/configuration/java"
   }
 }

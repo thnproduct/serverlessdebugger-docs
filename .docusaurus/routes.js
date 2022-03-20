@@ -4,41 +4,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','3d6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','914'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','c28'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','244'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog','520'),
     exact: true
@@ -94,18 +59,13 @@ export default [
     exact: true
   },
   {
-    path: '/indexxx',
-    component: ComponentCreator('/indexxx','3f1'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page','be1'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/','94f'),
+    component: ComponentCreator('/','0e4'),
     routes: [
       {
         path: '/',
@@ -114,20 +74,20 @@ export default [
         'sidebar': "sidebar"
       },
       {
-        path: '/configuration/java-config',
-        component: ComponentCreator('/configuration/java-config','afd'),
+        path: '/configuration/java',
+        component: ComponentCreator('/configuration/java','802'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/configuration/nodejs-config',
-        component: ComponentCreator('/configuration/nodejs-config','746'),
+        path: '/configuration/nodejs',
+        component: ComponentCreator('/configuration/nodejs','b86'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/configuration/python-config',
-        component: ComponentCreator('/configuration/python-config','359'),
+        path: '/configuration/python',
+        component: ComponentCreator('/configuration/python','8f8'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -162,8 +122,8 @@ export default [
         'sidebar': "sidebar"
       },
       {
-        path: '/self-hosted-broker/manual',
-        component: ComponentCreator('/self-hosted-broker/manual','073'),
+        path: '/self-hosted-broker/CloudFormation',
+        component: ComponentCreator('/self-hosted-broker/CloudFormation','175'),
         exact: true,
         'sidebar': "sidebar"
       }

@@ -12,17 +12,17 @@
           "docs": [
             {
               "id": "configuration/java-config",
-              "path": "/configuration/java-config",
+              "path": "/configuration/java",
               "sidebar": "sidebar"
             },
             {
               "id": "configuration/nodejs-config",
-              "path": "/configuration/nodejs-config",
+              "path": "/configuration/nodejs",
               "sidebar": "sidebar"
             },
             {
               "id": "configuration/python-config",
-              "path": "/configuration/python-config",
+              "path": "/configuration/python",
               "sidebar": "sidebar"
             },
             {
@@ -56,8 +56,8 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "self-hosted/manual-config",
-              "path": "/self-hosted-broker/manual",
+              "id": "self-hosted/CloudFormation-config",
+              "path": "/self-hosted-broker/CloudFormation",
               "sidebar": "sidebar"
             }
           ],

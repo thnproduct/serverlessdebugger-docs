@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Lambda Debugger Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'thundra', // Usually your GitHub org/user name.
+  projectName: 'lambda-debugger', // Usually your repo name.
 
   presets: [
     [
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Lambda Debugger Docs',
+        title: 'Lambda Debugger',
         logo: {
           alt: ' ',
           src: 'img/alogo.svg',
@@ -56,11 +56,11 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Changelog', position: 'left'},
-          {
-            href: 'https://github.com/thundra-io/thundra-vscode-issues/',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/thundra-io/thundra-vscode-issues/',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -71,7 +71,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },

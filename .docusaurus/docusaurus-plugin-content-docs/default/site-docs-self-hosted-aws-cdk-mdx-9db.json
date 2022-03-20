@@ -17,10 +17,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Java",
-    "permalink": "/configuration/java-config"
+    "permalink": "/configuration/java"
   },
   "next": {
-    "title": "Manual",
-    "permalink": "/self-hosted-broker/manual"
+    "title": "CloudFormation",
+    "permalink": "/self-hosted-broker/CloudFormation"
   }
 }
