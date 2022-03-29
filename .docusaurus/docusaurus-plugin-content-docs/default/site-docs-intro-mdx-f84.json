@@ -16,7 +16,7 @@
   },
   "sidebar": "sidebar",
   "next": {
-    "title": "VS Code",
-    "permalink": "/extensions/vs-code"
+    "title": "Examples",
+    "permalink": "/examples"
   }
 }

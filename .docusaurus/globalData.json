@@ -26,6 +26,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "examples",
+              "path": "/examples",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "extensions/eclipse",
               "path": "/extensions/eclipse",
               "sidebar": "sidebar"

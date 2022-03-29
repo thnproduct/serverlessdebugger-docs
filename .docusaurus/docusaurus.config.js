@@ -4,15 +4,15 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "Lambda Debugger Docs",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "frogate",
+  "tagline": "Serverless Debugger",
+  "url": "https://frogate.dev",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "thundra",
-  "projectName": "lambda-debugger",
+  "projectName": "frogate",
   "presets": [
     [
       "classic",
@@ -33,7 +33,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Lambda Debugger",
+      "title": "frogate",
       "logo": {
         "alt": " ",
         "src": "img/alogo.svg"
@@ -55,40 +55,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Slack",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2022 Thundra, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Thundra, Inc. Built with Docusaurus.",
+      "links": []
     },
     "prism": {
       "theme": {
@@ -301,6 +269,7 @@ export default {
     }
   },
   "plugins": [
+    null,
     null
   ],
   "baseUrlIssueBanner": true,

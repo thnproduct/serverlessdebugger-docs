@@ -15,6 +15,12 @@
         "docId": "intro"
       },
       {
+        "type": "link",
+        "label": "Examples",
+        "href": "/examples",
+        "docId": "examples"
+      },
+      {
         "type": "category",
         "label": "Extensions",
         "collapsible": false,
@@ -111,6 +117,12 @@
       "id": "configuration/python-config",
       "title": "Python",
       "description": "MDX and React Components",
+      "sidebar": "sidebar"
+    },
+    "examples": {
+      "id": "examples",
+      "title": "Examples",
+      "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
       "sidebar": "sidebar"
     },
     "extensions/eclipse": {

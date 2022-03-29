@@ -98,6 +98,32 @@
               }
             },
             {
+              "unversionedId": "examples",
+              "id": "examples",
+              "title": "Examples",
+              "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+              "source": "@site/docs/examples.mdx",
+              "sourceDirName": ".",
+              "slug": "/examples",
+              "permalink": "/examples",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "slug": "/examples"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "VS Code",
+                "permalink": "/extensions/vs-code"
+              }
+            },
+            {
               "unversionedId": "extensions/eclipse",
               "id": "extensions/eclipse",
               "title": "Eclipse",
@@ -167,8 +193,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/"
+                "title": "Examples",
+                "permalink": "/examples"
               },
               "next": {
                 "title": "IntelliJ",
@@ -219,8 +245,8 @@
               },
               "sidebar": "sidebar",
               "next": {
-                "title": "VS Code",
-                "permalink": "/extensions/vs-code"
+                "title": "Examples",
+                "permalink": "/examples"
               }
             },
             {
@@ -277,6 +303,10 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "examples"
               },
               {
                 "type": "category",
@@ -716,6 +746,9 @@
     "default": null
   },
   "docusaurus-tailwindcss": {
+    "default": null
+  },
+  "add-heap": {
     "default": null
   }
 }

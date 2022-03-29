@@ -16,8 +16,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/"
+    "title": "Examples",
+    "permalink": "/examples"
   },
   "next": {
     "title": "IntelliJ",
