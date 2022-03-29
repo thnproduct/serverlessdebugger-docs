@@ -269,8 +269,8 @@ export default {
     }
   },
   "plugins": [
-    null,
-    null
+    "./plugins/tailwind-config.js",
+    "./plugins/heap.js"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

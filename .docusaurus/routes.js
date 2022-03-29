@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','bbf'),
+    component: ComponentCreator('/','b4c'),
     routes: [
       {
         path: '/',
@@ -139,6 +139,12 @@ export default [
         'sidebar': "sidebar"
       },
       {
+        path: '/extensions/intellij-idea',
+        component: ComponentCreator('/extensions/intellij-idea','cca'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
         path: '/extensions/vs-code',
         component: ComponentCreator('/extensions/vs-code','85d'),
         exact: true,
@@ -147,12 +153,6 @@ export default [
       {
         path: '/extensions/webstorm',
         component: ComponentCreator('/extensions/webstorm','804'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/intellij',
-        component: ComponentCreator('/intellij','380'),
         exact: true,
         'sidebar': "sidebar"
       },

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "extensions/intellij-idea",
+  "id": "extensions/intellij-idea",
+  "title": "IntelliJ IDEA",
+  "description": "frogate's IntelliJ IDEA plugin allows you to debug your AWS Lambda functions written in Java.",
+  "source": "@site/docs/extensions/intellij-idea.mdx",
+  "sourceDirName": "extensions",
+  "slug": "/extensions/intellij-idea",
+  "permalink": "/extensions/intellij-idea",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/extensions/intellij-idea"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "VS Code",
+    "permalink": "/extensions/vs-code"
+  },
+  "next": {
+    "title": "Webstorm",
+    "permalink": "/extensions/webstorm"
+  }
+}

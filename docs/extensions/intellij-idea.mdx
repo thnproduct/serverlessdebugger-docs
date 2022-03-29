@@ -1,0 +1,95 @@
+---
+sidebar_position: 3
+slug: /extensions/intellij-idea
+---
+
+# IntelliJ IDEA
+frogate's IntelliJ IDEA plugin allows you to debug your AWS Lambda functions written in [Java](/configuration/java). 
+With a small configuration, debugging is as simple as a click of a button.
+
+## Introduction 
+Start online debug sessions while the AWS Lambda functions run on AWS Cloud. Thundra sets up an easy and secure 
+connection between your AWS Lambda functions and IntelliJ IDEA. Debug your serverless applications natively with their own permissions. Stop mocking resources and simulating 
+the environments! Put breakpoints and pause the execution of the [Java](/configuration/java) functions to see the stack trace.
+
+## Installation
+In order to use frogate's IntelliJ IDEA plugin, you need to **complete** all installation steps. Please follow the instructions below. 
+
+import {Step} from '@site/src/components/Step';
+import {Container} from '@site/src/components/Container';
+
+<Container>
+  <Step step="1" stepHeader="Install the plugin from the marketplace">
+    <a href="https://plugins.jetbrains.com/plugin/13858-debugger-for-aws-lambda">See it on Jetbrains Marketplace</a>
+  </Step>
+  <Step step="2" stepHeader="Get your Debug Token">
+    <a href="https://start.thundra.io">Sign up for Thundra</a> and get your <code>THUNDRA_AGENT_LAMBDA_DEBUGGER_AUTH_TOKEN</code> from <a href="https://start.thundra.io/apps#showDebugToken">this page</a>.
+  </Step>
+  <Step step="3" stepHeader="Edit IntelliJ IDEA configuration">
+  <ul>
+    <li>
+      Click <code>Run</code> from the top menu, and select <strong>Edit Configurations</strong>.</li>
+    <li> 
+      Click on the "+" sign and select <strong>Thundra Debugger</strong> from the list. Paste the auth token to the <strong>Authentication Token</strong> field. Enter a name for this new profile and then save.
+    </li>
+  </ul>
+  </Step>
+  <Step step="4" stepHeader="Edit AWS variables">
+    Go to your <strong>AWS Console</strong> and set your auth token value with the <code>THUNDRA_AGENT_LAMBDA_DEBUGGER_AUTH_TOKEN</code> key as your environment variable.
+    <br/><br/>
+    <img src='/img/awsconsole-authtoken.png' alt="AWS Console" />
+  </Step>  
+  <Step step="5" stepHeader="Instrument your function">
+    After installing the plugin, instrument your AWS Lambda. You can instrument your <a href="/configuration/java">Java</a> functions to use IntelliJ IDEA plugin.
+  </Step>
+</Container> 
+
+:::note
+
+If you need any help, please [join our Slack channel](#) and get personal help from the contributors. 
+
+:::
+
+
+## How to use
+
+After completing the installation steps, follow the guides below to start using Lambda Debugger.
+
+<Container>
+  <Step step="🛑" stepHeader="Set a breakpoint">
+    Set a debug point on your IntelliJ IDEA. You can set multiple debug points as well.
+  </Step>
+  <Step step="⚙️" stepHeader="Select profile">
+    Select a profile from the Run Configurations drop-down menu.
+  </Step>
+  <Step step="▶️" stepHeader="Start debugger">
+    Click on the “Debug” button to start a debugging session with the selected profile.
+  </Step>
+  <Step step="⚡️" stepHeader="Invoke your function">
+    Now invoke your Lambda function to hit on the debug point.
+  </Step>
+  <Step step="🔍" stepHeader="Happy debugging!">
+    You can start debugging when the variables and the call stack are loaded.
+  </Step>
+</Container>    
+
+:::tip
+
+Debug session ends when your AWS Lambda function times out. You can update the timeout of your function for longer debug sessions.
+
+:::
+
+## Manage your debugger profiles
+- Select “Run - Edit Configurations.”
+- Select a profile from the Run Configurations drop-down menu.
+- Click on “Thundra Debugger” and add a new configuration.
+- Enter a new name for the profile and save it.
+- Your saved profiles will be listed under “Run Configurations.”
+
+## Self-Hosted Broker
+
+A self-hosted instance of the broker that provides the necessary functionality for online debugging can be installed on your own AWS account using our CloudFormation template or our CDK application. Please follow [this guide](#) to learn more.
+
+## Issues
+
+Issues can be reported through the [Thundra Debugger Issue Repository](https://github.com/thundra-io/thundra-vscode-issues).

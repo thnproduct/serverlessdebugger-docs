@@ -2,7 +2,7 @@
   "unversionedId": "examples",
   "id": "examples",
   "title": "Examples",
-  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+  "description": "",
   "source": "@site/docs/examples.mdx",
   "sourceDirName": ".",
   "slug": "/examples",

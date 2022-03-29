@@ -1,6 +1,6 @@
 import React from 'react';
 import vscodeLogo from '@site/static/img/vscode-logo.png'
-import intellijLogo from '@site/static/img/intellij-logo.png'
+import intellijLogo from '@site/static/img/intellij-idea-logo.png'
 import webstromLogo from '@site/static/img/webstorm-logo.png'
 import eclipseLogo from '@site/static/img/eclipse-logo.png'
 
@@ -8,7 +8,7 @@ const findLogo = (plugin) => {
   switch(plugin) {
     case "VS Code":
       return vscodeLogo;
-    case "IntelliJ":
+    case "IntelliJ IDEA":
       return intellijLogo;
     case "Eclipse":
       return eclipseLogo;
@@ -18,7 +18,6 @@ const findLogo = (plugin) => {
       return "";
   } 
 }
-
 
 export const PluginCard = ({children, plugin, target, languages}) => (
   <a href={target} className="plugin-card">

@@ -36,8 +36,8 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "extensions/intellij",
-              "path": "/intellij",
+              "id": "extensions/intellij-idea",
+              "path": "/extensions/intellij-idea",
               "sidebar": "sidebar"
             },
             {

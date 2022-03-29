@@ -34,9 +34,9 @@
           },
           {
             "type": "link",
-            "label": "IntelliJ",
-            "href": "/intellij",
-            "docId": "extensions/intellij"
+            "label": "IntelliJ IDEA",
+            "href": "/extensions/intellij-idea",
+            "docId": "extensions/intellij-idea"
           },
           {
             "type": "link",
@@ -122,7 +122,7 @@
     "examples": {
       "id": "examples",
       "title": "Examples",
-      "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+      "description": "",
       "sidebar": "sidebar"
     },
     "extensions/eclipse": {
@@ -131,10 +131,10 @@
       "description": "Marketplace Download",
       "sidebar": "sidebar"
     },
-    "extensions/intellij": {
-      "id": "extensions/intellij",
-      "title": "IntelliJ",
-      "description": "Marketplace Download",
+    "extensions/intellij-idea": {
+      "id": "extensions/intellij-idea",
+      "title": "IntelliJ IDEA",
+      "description": "frogate's IntelliJ IDEA plugin allows you to debug your AWS Lambda functions written in Java.",
       "sidebar": "sidebar"
     },
     "extensions/vs-code": {
