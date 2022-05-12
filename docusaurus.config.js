@@ -56,11 +56,6 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Changelog', position: 'left'},
-          // {
-          //   href: 'https://github.com/thundra-io/thundra-vscode-issues/',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {

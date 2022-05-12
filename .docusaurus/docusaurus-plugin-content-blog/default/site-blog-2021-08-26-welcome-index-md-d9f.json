@@ -2,56 +2,45 @@
   "permalink": "/blog/welcome",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
-  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "description": "Welcome to the Serverless Debugger",
   "date": "2021-08-26T00:00:00.000Z",
   "formattedDate": "August 26, 2021",
   "tags": [
-    {
-      "label": "facebook",
-      "permalink": "/blog/tags/facebook"
-    },
     {
       "label": "hello",
       "permalink": "/blog/tags/hello"
     },
     {
-      "label": "docusaurus",
-      "permalink": "/blog/tags/docusaurus"
+      "label": "serverlessdebugger",
+      "permalink": "/blog/tags/serverlessdebugger"
     }
   ],
-  "readingTime": 0.405,
+  "readingTime": 0.025,
   "truncated": false,
   "authors": [
     {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
-      "url": "https://sebastienlorber.com",
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
+      "name": "Barış Kaya",
+      "title": "PM",
+      "imageURL": "https://www.thundra.io/hubfs/New%20Design%20Website%20-%202020/About/Bar%C4%B1s%CC%A7.png",
+      "key": "bariskaya"
     },
     {
-      "name": "Yangshun Tay",
-      "title": "Front End Engineer @ Facebook",
-      "url": "https://github.com/yangshun",
-      "imageURL": "https://github.com/yangshun.png",
-      "key": "yangshun"
+      "name": "Burak Kantarcı",
+      "title": "PM",
+      "imageURL": "https://www.thundra.io/hubfs/New%20Design%20Website%20-%202020/About/Burak.png",
+      "key": "burakkantarci"
     }
   ],
   "frontMatter": {
     "slug": "welcome",
     "title": "Welcome",
     "authors": [
-      "slorber",
-      "yangshun"
+      "bariskaya",
+      "burakkantarci"
     ],
     "tags": [
-      "facebook",
       "hello",
-      "docusaurus"
+      "serverlessdebugger"
     ]
-  },
-  "nextItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
   }
 }

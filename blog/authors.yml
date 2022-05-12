@@ -1,17 +1,9 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+bariskaya:
+  name: Barış Kaya
+  title: PM
+  image_url: https://www.thundra.io/hubfs/New%20Design%20Website%20-%202020/About/Bar%C4%B1s%CC%A7.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+burakkantarci:
+  name: Burak Kantarcı
+  title: PM
+  image_url: https://www.thundra.io/hubfs/New%20Design%20Website%20-%202020/About/Burak.png
