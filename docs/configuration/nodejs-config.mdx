@@ -4,6 +4,97 @@ slug: /configuration/nodejs
 sidebar_position: 1
 ---
 
-import {Highlight} from '@site/src/components/Highlight';
+## Using Layers
+Integrating Serverless Debugger using AWS Lambda Layers is the recommended (and easier) way to get started with Serverless Debugger. 
+Depending on whether or not you choose to use a custom runtime, you can integrate Serverless Debugger with no code changes 
+at all or just by wrapping your handler function.
 
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+### Step 1 - Deploy Your Function to AWS Lambda
+Bundle all your Node.js Lambda function files and any additional required packages, and then upload it to the 
+AWS Lambda console using the **Upload a.zip file** option for the code entry type.
+Note that Serverless Debugger dependencies are not expected to be in the artifact to be uploaded, as they 
+come with a layer that will be utilized at a later point.
+
+### Step 2 - Configure Your Function
+Add Thundra's Node.js layer to your Lambda function using the ARN below. Note that the ARN contains a region and a 
+version parameter which you will need to set. Set the region value to your Lambda function's region and the version 
+value to the layer version you want to use with your Lambda function.
+
+```js
+arn:aws:lambda:${region}:269863060030:layer:thundra-lambda-node-layer-minified:${version}
+```
+
+:::note
+
+Latest version of the Thundra NodeJS layer  ![Thundra Node Layer](https://img.shields.io/endpoint.svg?url=https://thundra-layer-nodejs-hbxafac868au.runkit.sh) 
+
+:::
+
+
+After the Thundra layer ARN has been added, you can continue using a custom runtime or continue without using a
+custom runtime. Regardless of what you choose, make sure to also set the THUNDRA_APIKEY environment variable to 
+the API key you get from the Thundra console.
+
+### Step 3: Configure Handler
+You should only use one (either auto or manual) of the options below, not both of them!
+
+#### a. Auto wrap
+Set the handler to ```thundra_handler.wrapper``` and then set the ```THUNDRA_AGENT_LAMBDA_HANDLER``` environment variable 
+value to your original handler (e.g., ```index.handler```).
+
+#### b. Manual wrap
+You can wrap your Lambda handler to integrate Thundra as shown below.
+
+```jsx title="index.js"
+const thundra = require("@thundra/core")();
+
+exports.handler = thundra((event, context,callback) => {
+    callback(null, "Hello Thundra!");
+});
+```
+
+:::note
+
+In the example above, the required @thundra/core package is already available in Thundra's Node.js layer, which we already added. Thus, you don't need to install the package and bundle it with your Lambda function.
+
+:::
+
+### Step 4: Invoke Your Function
+
+Now you can try to invoke your Lambda function and see the details of your invocation in the Thundra console!
+
+
+## Without Layers
+If you do not want to use AWS Lambda Layers, you can still easily integrate Thundra to your Node.js Lambda function. 
+All you have to do is install the ```@thundra/core``` package via npm .
+
+### Step 1: Install the @thundra/core package
+
+```jsx
+npm install @thundra/core --save
+```
+
+### Step 2: Wrap your Lambda Handler
+After installing the ```@thundra/core``` module, you will need to wrap your Lambda handlers.
+Thundra will monitor your AWS Lambda function automatically, supporting callback along
+with various context functions.
+
+```jsx title=handler.js
+const thundra = require("@thundra/core")();
+
+exports.handler = thundra((event, context,callback) => {
+    callback(null, "Hello Thundra!");
+});
+```
+
+### Step 3: Deploy Your Function to AWS Lambda
+Bundle your function and any additional required Node.js packages, and then upload it to the
+Without Layers AWS Lambda console using the **Upload a.zip file** option for the code entry type.
+
+### Step 4: Configure your function
+In the AWS Lambda console, set the ```THUNDRA_APIKEY``` environment variable to the API key
+value you got from the Thundra console.
+
+### Step 5: Invoke your function!
+Now you can try to invoke your Lambda function and see the details of your invocation in the
+Thundra console!

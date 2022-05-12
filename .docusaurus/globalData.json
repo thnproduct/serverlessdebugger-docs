@@ -11,11 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "configuration/java-config",
-              "path": "/configuration/java",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "configuration/nodejs-config",
               "path": "/configuration/nodejs",
               "sidebar": "sidebar"
@@ -31,23 +26,8 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "extensions/eclipse",
-              "path": "/extensions/eclipse",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "extensions/intellij-idea",
-              "path": "/extensions/intellij-idea",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "extensions/vs-code",
               "path": "/extensions/vs-code",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "extensions/webstorm",
-              "path": "/extensions/webstorm",
               "sidebar": "sidebar"
             },
             {

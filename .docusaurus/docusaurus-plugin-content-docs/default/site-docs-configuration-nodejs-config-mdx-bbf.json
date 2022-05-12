@@ -2,7 +2,7 @@
   "unversionedId": "configuration/nodejs-config",
   "id": "configuration/nodejs-config",
   "title": "NodeJS",
-  "description": "This is Docusaurus green !",
+  "description": "Using Layers",
   "source": "@site/docs/configuration/nodejs-config.mdx",
   "sourceDirName": "configuration",
   "slug": "/configuration/nodejs",
@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Eclipse",
-    "permalink": "/extensions/eclipse"
+    "title": "VS Code",
+    "permalink": "/extensions/vs-code"
   },
   "next": {
     "title": "Python",

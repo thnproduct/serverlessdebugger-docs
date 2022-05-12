@@ -16,11 +16,11 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "IntelliJ IDEA",
-    "permalink": "/extensions/intellij-idea"
+    "title": "VS Code",
+    "permalink": "/extensions/vs-code"
   },
   "next": {
-    "title": "Eclipse",
-    "permalink": "/extensions/eclipse"
+    "title": "NodeJS",
+    "permalink": "/configuration/nodejs"
   }
 }

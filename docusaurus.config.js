@@ -2,11 +2,11 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'frogate',
+  title: 'Serverless Debugger',
   tagline: 'Serverless Debugger',
   url: 'https://frogate.dev',
   baseUrl: '/',
@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thundra', // Usually your GitHub org/user name.
-  projectName: 'frogate', // Usually your repo name.
+  projectName: 'Serverless Debugger', // Usually your repo name.
 
   presets: [
     [
@@ -44,10 +44,9 @@ const config = {
     
     ({
       navbar: {
-        title: 'frogate',
         logo: {
           alt: ' ',
-          src: 'img/alogo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -127,10 +126,11 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Thundra, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+    
 
     plugins: [
        './plugins/tailwind-config.js',

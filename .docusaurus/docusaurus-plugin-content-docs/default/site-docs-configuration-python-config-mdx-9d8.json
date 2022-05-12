@@ -2,7 +2,7 @@
   "unversionedId": "configuration/python-config",
   "id": "configuration/python-config",
   "title": "Python",
-  "description": "MDX and React Components",
+  "description": "Using Layers",
   "source": "@site/docs/configuration/python-config.mdx",
   "sourceDirName": "configuration",
   "slug": "/configuration/python",
@@ -21,7 +21,7 @@
     "permalink": "/configuration/nodejs"
   },
   "next": {
-    "title": "Java",
-    "permalink": "/configuration/java"
+    "title": "AWS CDK",
+    "permalink": "/self-hosted-broker/aws-cdk"
   }
 }

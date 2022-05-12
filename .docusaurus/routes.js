@@ -4,41 +4,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','3d6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','914'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','c28'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','244'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog','520'),
     exact: true
@@ -100,17 +65,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','b4c'),
+    component: ComponentCreator('/','d96'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/','206'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/configuration/java',
-        component: ComponentCreator('/configuration/java','802'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -133,26 +92,8 @@ export default [
         'sidebar': "sidebar"
       },
       {
-        path: '/extensions/eclipse',
-        component: ComponentCreator('/extensions/eclipse','76b'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/extensions/intellij-idea',
-        component: ComponentCreator('/extensions/intellij-idea','cca'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
         path: '/extensions/vs-code',
         component: ComponentCreator('/extensions/vs-code','85d'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/extensions/webstorm',
-        component: ComponentCreator('/extensions/webstorm','804'),
         exact: true,
         'sidebar': "sidebar"
       },

@@ -16,8 +16,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Java",
-    "permalink": "/configuration/java"
+    "title": "Python",
+    "permalink": "/configuration/python"
   },
   "next": {
     "title": "CloudFormation",

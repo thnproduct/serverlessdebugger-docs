@@ -4,46 +4,81 @@ slug: /configuration/python
 sidebar_position: 2
 ---
 
-## MDX and React Components
+## Using Layers
+Integrating Serverless Debugger using AWS Lambda Layers is the recommended (and easier) way to get started with Serverless Debugger. 
+Depending on whether or not you choose to use a custom runtime, you can integrate Serverless Debugger with no code changes 
+at all or just by wrapping your handler function.
 
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
+### Step 1 - Deploy Your Function to AWS Lambda
+Bundle all your Python module files and any additional required Python libraries, and then
+upload it to the AWS Lambda console using the **Upload a.zip file** option for the code entry type.
+Note that Thundra dependencies are not expected to be in the artifact to be uploaded, as they
+come with a layer that will be utilized at a later point
+
+### Step 2 - Configure Your Function
+Add the API key to the environment variables on the Amazon Lambda console.
+
+**Add Thundra layer**
+Next, add the Thundra layer by clicking on the Layers option in the Designer tab on your
+Lambda function console. Then select the “Add Layer” button and add the Thundra layer's ARN.
 
 ```jsx
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`)
-    }}>
-    {children}
-  </span>
-);
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+arn:aws:lambda:${region}:269863060030:layer:thundra-lambda-python-layer:${latest-version} 
 ```
 
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`);
-    }}>
-    {children}
-  </span>
-);
+:::note
 
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+Latest version of the Thundra Python layer  ![Thundra Python Layer](https://img.shields.io/endpoint.svg?url=https://thundra-layer-python-svd2fu4gtfa3.runkit.sh/) 
+
+:::
+
+:::info
+
+Note that the region of the ARN is dynamic, so you need to change it accordingly to 
+the region where you deploy your function. So let’s say that you deploy your Lambda
+ function to the Oregon (us-west-2) region. The layer ARN 
+ will be ```arn:aws:lambda:us-west-2:269863060030:layer:thundra-lambda-python-layer:${layer-version}```
+
+:::
+
+### Step 3: Configure Handler
+Set the handler to ```thundra.handler.wrapper```. Set the
+```thundra_agent_lambda_handler``` environment variable value to your original handler
+(e.g., handler.handle ).
+
+
+### Step 4: Invoke Your Function
+
+Clicking on the “Test” button, which is located on the top right side of the AWS console, will result
+in an invocation of your function (after you have configured test data per the specifications of
+your function)
+
+After generating your first invocation, the “Next” button will appear in the Invocation Monitor bar.
+Simply click the button to see monitoring data from your invocation.
+
+## Without Layers
+
+### Step 1:  Install Thundra’s python package
+
+```jsx
+pip3 install thundra -t .
+```
+
+### Step 2: Deploy Your Function to AWS Lambda.
+Bundle all your Python module files and any additional required Python libraries, and then
+upload it to the AWS Lambda console using the “Upload a.zip file” option for the code entry type.
+
+### Step 3: Configure Your Function
+Add the API key to the environment variables on the Amazon Lambda console
+
+### Step 4: Configure Handler
+Set the handler to ```thundra.handler.wrapper```. Set the ```thundra_agent_lambda_handler```
+environment variable value to your handler.
+
+### Step 5: Invoke your function!
+Clicking on the “Test” button, which is located on the top right side of the AWS console, will result
+in an invocation of your function (after you have configured test data per the specifications of
+your function).
+
+Now you can try to invoke your Lambda function and see the details of your invocation in the
+Thundra console!

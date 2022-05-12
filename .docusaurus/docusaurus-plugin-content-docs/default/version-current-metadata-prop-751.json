@@ -31,24 +31,6 @@
             "label": "VS Code",
             "href": "/extensions/vs-code",
             "docId": "extensions/vs-code"
-          },
-          {
-            "type": "link",
-            "label": "IntelliJ IDEA",
-            "href": "/extensions/intellij-idea",
-            "docId": "extensions/intellij-idea"
-          },
-          {
-            "type": "link",
-            "label": "Webstorm",
-            "href": "/extensions/webstorm",
-            "docId": "extensions/webstorm"
-          },
-          {
-            "type": "link",
-            "label": "Eclipse",
-            "href": "/extensions/eclipse",
-            "docId": "extensions/eclipse"
           }
         ]
       },
@@ -69,12 +51,6 @@
             "label": "Python",
             "href": "/configuration/python",
             "docId": "configuration/python-config"
-          },
-          {
-            "type": "link",
-            "label": "Java",
-            "href": "/configuration/java",
-            "docId": "configuration/java-config"
           }
         ]
       },
@@ -101,51 +77,27 @@
     ]
   },
   "docs": {
-    "configuration/java-config": {
-      "id": "configuration/java-config",
-      "title": "Java",
-      "description": "MDX and React Components",
-      "sidebar": "sidebar"
-    },
     "configuration/nodejs-config": {
       "id": "configuration/nodejs-config",
       "title": "NodeJS",
-      "description": "This is Docusaurus green !",
+      "description": "Using Layers",
       "sidebar": "sidebar"
     },
     "configuration/python-config": {
       "id": "configuration/python-config",
       "title": "Python",
-      "description": "MDX and React Components",
+      "description": "Using Layers",
       "sidebar": "sidebar"
     },
     "examples": {
       "id": "examples",
       "title": "Examples",
-      "description": "",
-      "sidebar": "sidebar"
-    },
-    "extensions/eclipse": {
-      "id": "extensions/eclipse",
-      "title": "Eclipse",
-      "description": "Marketplace Download",
-      "sidebar": "sidebar"
-    },
-    "extensions/intellij-idea": {
-      "id": "extensions/intellij-idea",
-      "title": "IntelliJ IDEA",
-      "description": "frogate's IntelliJ IDEA plugin allows you to debug your AWS Lambda functions written in Java.",
+      "description": "In progress",
       "sidebar": "sidebar"
     },
     "extensions/vs-code": {
       "id": "extensions/vs-code",
       "title": "VS Code",
-      "description": "Marketplace Download",
-      "sidebar": "sidebar"
-    },
-    "extensions/webstorm": {
-      "id": "extensions/webstorm",
-      "title": "Webstorm",
       "description": "Marketplace Download",
       "sidebar": "sidebar"
     },
