@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 const config = {
   title: 'Serverless Debugger',
   tagline: 'Serverless Debugger',
-  url: 'https://frogate.dev',
+  url: 'https://serverlessddebugger.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -129,7 +129,8 @@ const config = {
 
     plugins: [
        './plugins/tailwind-config.js',
-       './plugins/heap.js'
+       './plugins/heap.js',
+       './plugins/gtm.js'
      ], 
     
 };
