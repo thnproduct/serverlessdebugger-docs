@@ -68,14 +68,11 @@ pip3 install thundra -t .
 Bundle all your Python module files and any additional required Python libraries, and then
 upload it to the AWS Lambda console using the “Upload a.zip file” option for the code entry type.
 
-### Step 3: Configure Your Function
-Add the API key to the environment variables on the Amazon Lambda console
-
-### Step 4: Configure Handler
+### Step 3: Configure Handler
 Set the handler to ```thundra.handler.wrapper```. Set the ```thundra_agent_lambda_handler```
 environment variable value to your handler.
 
-### Step 5: Invoke your function!
+### Step 4: Invoke your function!
 Clicking on the “Test” button, which is located on the top right side of the AWS console, will result
 in an invocation of your function (after you have configured test data per the specifications of
 your function).
