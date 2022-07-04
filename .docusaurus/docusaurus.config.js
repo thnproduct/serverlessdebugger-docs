@@ -6,7 +6,7 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "Serverless Debugger",
   "tagline": "Serverless Debugger",
-  "url": "https://frogate.dev",
+  "url": "https://serverlessddebugger.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -19,14 +19,14 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/burakkantarci/Dev/lambda-debugger-docs/sidebars.js",
+          "sidebarPath": "/Users/burakkantarci/Dev/srv-debugger-docs/sidebars.js",
           "sidebarCollapsible": false
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/burakkantarci/Dev/lambda-debugger-docs/src/css/custom.css"
+          "customCss": "/Users/burakkantarci/Dev/srv-debugger-docs/src/css/custom.css"
         }
       }
     ]
@@ -43,11 +43,6 @@ export default {
           "docId": "intro",
           "position": "left",
           "label": "Docs"
-        },
-        {
-          "to": "/blog",
-          "label": "Changelog",
-          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -360,7 +355,8 @@ export default {
   },
   "plugins": [
     "./plugins/tailwind-config.js",
-    "./plugins/heap.js"
+    "./plugins/heap.js",
+    "./plugins/gtm.js"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

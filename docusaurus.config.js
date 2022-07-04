@@ -55,7 +55,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Changelog', position: 'left'},
         ],
       },
       footer: {

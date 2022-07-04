@@ -12,9 +12,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/burakkantarci/Dev/lambda-debugger-docs/sidebars.js",
-          "contentPath": "/Users/burakkantarci/Dev/lambda-debugger-docs/docs",
-          "contentPathLocalized": "/Users/burakkantarci/Dev/lambda-debugger-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/burakkantarci/Dev/srv-debugger-docs/sidebars.js",
+          "contentPath": "/Users/burakkantarci/Dev/srv-debugger-docs/docs",
+          "contentPathLocalized": "/Users/burakkantarci/Dev/srv-debugger-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "configuration/nodejs-config",
@@ -407,6 +407,9 @@
     "default": null
   },
   "add-heap": {
+    "default": null
+  },
+  "add-gtm": {
     "default": null
   }
 }
