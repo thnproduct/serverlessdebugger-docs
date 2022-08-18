@@ -4,75 +4,112 @@ slug: /configuration/python
 sidebar_position: 2
 ---
 
-## Using Layers
-Integrating Serverless Debugger using AWS Lambda Layers is the recommended (and easier) way to get started with Serverless Debugger. 
-Depending on whether or not you choose to use a custom runtime, you can integrate Serverless Debugger with no code changes 
-at all or just by wrapping your handler function.
+[![Pyversions](https://img.shields.io/pypi/pyversions/slsdebugger.svg?style=flat)](https://pypi.org/project/slsdebugger/)
+[![PyPI](https://img.shields.io/pypi/v/slsdebugger.svg)](https://pypi.org/project/slsdebugger/)
 
-### Step 1 - Deploy Your Function to AWS Lambda
-Bundle all your Python module files and any additional required Python libraries, and then
-upload it to the AWS Lambda console using the **Upload a.zip file** option for the code entry type.
-Note that Thundra dependencies are not expected to be in the artifact to be uploaded, as they
-come with a layer that will be utilized at a later point
+Debug your marvelous python lambda with serverless debugger by [Thundra](https://www.serverlessdebugger.com)!
 
-### Step 2 - Add Thundra Layer
-Next, add the Thundra layer by clicking on the Layers option in the Designer tab on your
-Lambda function console. Then select the “Add Layer” button and add the Thundra layer's ARN.
+## Contents
 
-```jsx
-arn:aws:lambda:${region}:269863060030:layer:thundra-lambda-python-layer:${latest-version} 
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Getting Help](#getting-help)
+- [Opening Issues](#opening-issues)
+
+  
+## Installation
+
+- Login from [our website](https://app.serverlessdebugger.com/landing)
+
+- Get your authentication key.
+
+- Install our [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+
+- Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
+![Command Palette](./assets/serverless-debugger-palette.png)
+
+- Set **SLSDEBUGGER_AUTH_TOKEN** also by your authentication token to your lambda environment.
+
+- Follow one of the following two steps.
+### Using Serverless Debugger Lambda Layer
+
+- Add Serverless Debugger lambda layer!
+```
+arn:aws:lambda:${region}:545538059309:layer:slsdebugger-python:${latest-version} 
+```
+- Latest version of the Serverless Debugger Python Layer ![Serverless Debugger Python Layer](https://api.globadge.com/v1/badgen/aws/lambda/layer/latest-version/us-west-2/545538059309/slsdebugger-python)
+
+- Supported regions: ap-northeast-1, ap-northeast-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-east-1, ca-central-1, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2
+
+- Set SLSDEBUGGER_AUTH_TOKEN in environment variable.
+
+- Set SLSDEBUGGER_LAMBDA_HANDLER to your lambda handler in environment variable.
+
+- Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+
+- Trigger your lambda function.
+### Manually Wrapping
+
+- Run this command from your project directory:
+```bash
+pip install slsdebugger -t .
 ```
 
-:::note
+- Wrap your lambda function.
+```python
+import slsdebugger
 
-Latest version of the Thundra Python layer  ![Thundra Python Layer](https://img.shields.io/endpoint.svg?url=https://thundra-layer-python-svd2fu4gtfa3.runkit.sh/) 
-
-:::
-
-:::info
-
-Note that the region of the ARN is dynamic, so you need to change it accordingly to 
-the region where you deploy your function. So let’s say that you deploy your Lambda
- function to the Oregon (us-west-2) region. The layer ARN 
- will be ```arn:aws:lambda:us-west-2:269863060030:layer:thundra-lambda-python-layer:${layer-version}```
-
-:::
-
-### Step 3: Configure Handler
-Set the handler to ```thundra.handler.wrapper```. Set the
-```thundra_agent_lambda_handler``` environment variable value to your original handler
-(e.g., handler.handle ).
-
-
-### Step 4: Invoke Your Function
-
-Clicking on the “Test” button, which is located on the top right side of the AWS console, will result
-in an invocation of your function (after you have configured test data per the specifications of
-your function)
-
-After generating your first invocation, the “Next” button will appear in the Invocation Monitor bar.
-Simply click the button to see monitoring data from your invocation.
-
-## Without Layers
-
-### Step 1:  Install Thundra’s python package
-
-```jsx
-pip3 install thundra -t .
+@slsdebugger.lambda_wrapper
+def handler(event, context):
+    print("Hello Serverless Debugger!")
 ```
 
-### Step 2: Deploy Your Function to AWS Lambda.
-Bundle all your Python module files and any additional required Python libraries, and then
-upload it to the AWS Lambda console using the “Upload a.zip file” option for the code entry type.
+- Set SLSDEBUGGER_AUTH_TOKEN in environment variable.
 
-### Step 3: Configure Handler
-Set the handler to ```thundra.handler.wrapper```. Set the ```thundra_agent_lambda_handler```
-environment variable value to your handler.
+- Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
-### Step 4: Invoke your function!
-Clicking on the “Test” button, which is located on the top right side of the AWS console, will result
-in an invocation of your function (after you have configured test data per the specifications of
-your function).
+- Trigger your lambda function.
 
-Now you can try to invoke your Lambda function and see the details of your invocation in the
-Thundra console!
+## Configuration
+You can configure Serverless Debugger using **environment variables**.
+
+Check out the [configuration part](https://docs.serverlessdebugger.com/configuration/python) of our docs for more detailed information.
+
+#### 1. Environment variables
+
+- Only required environment variable is **SLSDEBUGGER_AUTH_TOKEN**. If it is empty, Serverless Debugger only calls your function without debugging.
+
+| Name                                                | Type   |          Default Value                |
+|:----------------------------------------------------|:------:|:-------------------------------------:|
+| SLSDEBUGGER_ENABLED                                 | bool   |              true                     |
+| SLSDEBUGGER_AUTH_TOKEN                              | string |                -                      |
+| SLSDEBUGGER_PORT                                    |  int   |              1111                     |
+| SLSDEBUGGER_LOGS_ENABLE                             |  bool  |              false                    |
+| SLSDEBUGGER_WAIT_MAX                                |  int   |              60000(ms)                |
+| SLSDEBUGGER_IO_WAIT                                 |  int   |              2000(ms)                 |
+| SLSDEBUGGER_BROKER_PORT                             |  bool  |              444                      |
+| SLSDEBUGGER_BROKER_HOST                             |  bool  | broker.service.serverlessdebugger.com |
+| SLSDEBUGGER_SESSION_NAME                            | string |              default                  |
+| SLSDEBUGGER_LAMBDA_HANDLER                          | string |                -                      |
+| SLSDEBUGGER_LAMBDA_WARMUP_WARMUPAWARE               |  bool  |              false                    |
+| SLSDEBUGGER_LAMBDA_TIMEOUT_MARGIN                   |  int   |                -                      |
+
+## Getting Help
+
+If you have any issue around using the library or the product, please don't hesitate to:
+
+* Use the [documentation](https://docs.serverlessdebugger.com).
+* Open an issue in GitHub.
+* Join our python slack channel.
+
+
+## Opening Issues
+
+For any problem you encounter while using Serverless Debugger Python, Please feel free to contact us via github issue or our python slack channel. 
+
+When opening a new issue, please provide as much information about the environment:
+* Library version, Python runtime version, dependencies, operation system with version etc.
+* Snippet of the usage.
+* A reproducible example can really help.
+
+The GitHub issues are intended for bug reports and feature requests.
