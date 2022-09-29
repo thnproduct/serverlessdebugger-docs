@@ -21,7 +21,7 @@
     "permalink": "/configuration/nodejs"
   },
   "next": {
-    "title": "AWS CDK",
+    "title": "ServerlessDebugger Self-Hosted CDK",
     "permalink": "/self-hosted-broker/aws-cdk"
   }
 }
