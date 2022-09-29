@@ -43,6 +43,11 @@ export default {
           "docId": "intro",
           "position": "left",
           "label": "Docs"
+        },
+        {
+          "href": "https://www.serverlessdebugger.com/discord-invitation",
+          "label": "Discord",
+          "position": "right"
         }
       ],
       "hideOnScroll": false

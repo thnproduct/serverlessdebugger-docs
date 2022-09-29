@@ -6,24 +6,54 @@ sidebar_position: 2
 
 [![Pyversions](https://img.shields.io/pypi/pyversions/slsdebugger.svg?style=flat)](https://pypi.org/project/slsdebugger/)
 [![PyPI](https://img.shields.io/pypi/v/slsdebugger.svg)](https://pypi.org/project/slsdebugger/)
-
-Debug your marvelous Python Lambda with ServerlessDebugger by [Thundra](https://www.serverlessdebugger.com)!
   
 ## Installation
 
-- Login from [our website](https://app.serverlessdebugger.com/landing)
+import {Step} from '@site/src/components/Step';
+import {Container} from '@site/src/components/Container';
 
-- Get your authentication key.
+<Container>
+  <Step step="1" stepHeader="Get auth token">
 
-- Install our [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+Login to your [account](https://app.serverlessdebugger.com/landing), and get your auth token.
+<br/>
 
-- Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
+:::info
+If you want to try ServerlessDebugger you can get a free 7 days auth token from [here](https://app.serverlessdebugger.com/request-token)
+:::
+
+  </Step>
+  <Step step="2" stepHeader="Install VS Code plugin">
+
+Install our plugin from VS Code Marketplace: [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+
+  </Step>
+  <Step step="3" stepHeader="Edit Configuration">
+
+Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
+<br/>
+
 ![Command Palette](/img/serverless-debugger-palette.png)
 
-- Set `SLSDEBUGGER_AUTH_TOKEN` also by your authentication token to your lambda environment.
 
-- Follow one of the following two steps.
-### Using Serverless Debugger Lambda Layer
+  </Step>
+  <Step step="4" stepHeader="Install VS Code plugin">
+
+Set `SLSDEBUGGER_AUTH_TOKEN` also by your auth token to your lambda environment.
+
+  </Step>
+  <Step step="5" stepHeader="Edit your AWS Lambda">
+
+Follow one of the following two steps. 
+[Using Lambda Layer](#using-lambda-layer) or 
+[Manually Wrapping](#manually-wrapping) 
+
+
+  </Step>
+</Container>
+
+
+## Using Lambda Layer
 
 - Add Serverless Debugger lambda layer!
 ```
@@ -43,7 +73,8 @@ arn:aws:lambda:${region}:545538059309:layer:slsdebugger-python:${latest-version}
 - Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
 - Trigger your lambda function.
-### Manually Wrapping
+
+## Manually Wrapping
 
 - Run this command from your project directory:
 ```bash
@@ -70,9 +101,9 @@ You can configure Serverless Debugger using **environment variables**.
 
 Check out the [configuration part](https://docs.serverlessdebugger.com/configuration/python) of our docs for more detailed information.
 
-#### 1. Environment variables
+#### 1. Lambda environment variables
 
-- Only required environment variable is **SLSDEBUGGER_AUTH_TOKEN**. If it is empty, Serverless Debugger only calls your function without debugging.
+- Only required environment variable is `SLSDEBUGGER_AUTH_TOKEN`. If it is empty, Serverless Debugger only calls your function without debugging.
 
 | Name                                                | Type   |          Default Value                |
 |:----------------------------------------------------|:------:|:-------------------------------------:|
@@ -82,10 +113,10 @@ Check out the [configuration part](https://docs.serverlessdebugger.com/configura
 | SLSDEBUGGER_LOGS_ENABLE                             |  bool  |              false                    |
 | SLSDEBUGGER_WAIT_MAX                                |  int   |              60000(ms)                |
 | SLSDEBUGGER_IO_WAIT                                 |  int   |              2000(ms)                 |
-| SLSDEBUGGER_BROKER_PORT                             |  bool  |              444                      |
-| SLSDEBUGGER_BROKER_HOST                             |  bool  | broker.service.serverlessdebugger.com |
+| SLSDEBUGGER_BROKER_PORT (Lambda debugger port)      |  int  |              444                      |
+| SLSDEBUGGER_BROKER_HOST                             |  string  | broker.service.serverlessdebugger.com |
 | SLSDEBUGGER_SESSION_NAME                            | string |              default                  |
-| SLSDEBUGGER_LAMBDA_HANDLER                          | string |                -                      |
+| SLSDEBUGGER_LAMBDA_HANDLER                          | string |  `your-original-lambda-handler`  |
 | SLSDEBUGGER_LAMBDA_WARMUP_WARMUPAWARE               |  bool  |              false                    |
 | SLSDEBUGGER_LAMBDA_TIMEOUT_MARGIN                   |  int   |                -                      |
 
