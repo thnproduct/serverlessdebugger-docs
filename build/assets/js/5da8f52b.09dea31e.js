@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[370],{5207:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/serverlessdebugger","name":"serverlessdebugger","count":1,"permalink":"/blog/tags/serverlessdebugger"}')}}]);
