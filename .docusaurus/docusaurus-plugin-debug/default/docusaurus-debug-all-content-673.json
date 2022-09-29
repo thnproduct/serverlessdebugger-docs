@@ -66,7 +66,7 @@
                 "permalink": "/configuration/nodejs"
               },
               "next": {
-                "title": "ServerlessDebugger Self-Hosted CDK",
+                "title": "Self-Hosted CDK",
                 "permalink": "/self-hosted-broker/aws-cdk"
               }
             },
@@ -121,7 +121,7 @@
             {
               "unversionedId": "self-hosted/aws-cdk",
               "id": "self-hosted/aws-cdk",
-              "title": "ServerlessDebugger Self-Hosted CDK",
+              "title": "Self-Hosted CDK",
               "description": "This is the self-hosted version of ServerlessDebugger. ServerlessDebugger brings the traditional debugging experience to the AWS Lambdas. It comes in as a VSCode extension and can be installed on your VSCode IDE in seconds and enable you to put breakpoints in your Lambda functions. All done with no code changes!",
               "source": "@site/docs/self-hosted/aws-cdk.mdx",
               "sourceDirName": "self-hosted",
@@ -131,6 +131,7 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
+                "title": "Self-Hosted CDK",
                 "sidebar_position": 1,
                 "slug": "/self-hosted-broker/aws-cdk"
               },
@@ -162,7 +163,7 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "ServerlessDebugger Self-Hosted CDK",
+                "title": "Self-Hosted CDK",
                 "permalink": "/self-hosted-broker/aws-cdk"
               }
             }

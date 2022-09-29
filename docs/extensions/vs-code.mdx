@@ -27,7 +27,15 @@ import {Container} from '@site/src/components/Container';
     <a href="https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger">See it on VS Code Marketplace</a>
   </Step>
   <Step step="2" stepHeader="Get your Debug Token">
-    <a href="https://app.serverlessdebugger.com">Sign up for ServerlessDebugger</a> and get your <code>SLSDEBUGGER_AUTH_TOKEN</code> from <a href="https://app.serverlessdebugger.com/debug">this page</a>.
+    <a href="https://app.serverlessdebugger.com">
+    Sign up for ServerlessDebugger</a> and get your <code>SLSDEBUGGER_AUTH_TOKEN</code> from <a href="https://app.serverlessdebugger.com/debug">this page</a>.
+    <br/><br/>
+
+:::info
+If you want to try ServerlessDebugger you can get a free 7 days auth token from [here](https://app.serverlessdebugger.com/request-token)
+:::
+
+
   </Step>
   <Step step="3" stepHeader="Edit VS Code and AWS Environment variables">
   <ul>
@@ -97,8 +105,8 @@ Debug session ends when your AWS Lambda function times out. You can update the t
 
 - ```ServerlessDebugger: Start Debugger``` to start the debugger with the current profile's settings
 - ```ServerlessDebugger: Start Debugger (with a session name)``` to start the debugger with the given session name
-- ```ServerlessDebugger: Change``` active profile to change the active profile to the one given in your config file
-- ```ServerlessDebugger: Edit``` configuration to edit the JSON file containing your debugger configuration
+- ```ServerlessDebugger: Change active profile``` to change the active profile to the one given in your config file
+- ```ServerlessDebugger: Edit configuration``` to edit the JSON file containing your debugger configuration
 
 You can access all of the above commands from the command palette ```(Cmd+Shift+P or Ctrl+Shift+P)```.
 
