@@ -10,7 +10,7 @@ This is the self-hosted version of [ServerlessDebugger](https://serverlessdebugg
 
 Apart from the SaaS version of the ServerlessDebugger, we offer a way to install the debug broker into your own AWS account to satisfy your needs. To get the pricing and the license key for the self-hosted version, visit our [Pricing Page](https://www.serverlessdebugger.com/pricing).
 
-# Prerequisites
+## Prerequisites
 
 You would need a couple of things ready before you start running commands.
 
@@ -27,7 +27,7 @@ You would need a couple of things ready before you start running commands.
     - See [AWS CLI Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) for more information about the installation.
     - See [AWS CLI Configuration Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) for more information about the configuration.
 
-# Installation
+## Installation
 
 To setup the self-hosted version of ServerlessDebugger, you have to have an AWS account with proper access to create resources and apply this CDK. You can see the details of what's in this CDK [below](#whats-in-this-cdk) or by reading the code itself.
 
@@ -89,7 +89,7 @@ In your Lambda function, set the `THUNDRA_AGENT_LAMBDA_DEBUGGER_BROKER_HOST` env
 
 If you encounter any issue or need any help, feel free to reach out to us.
 
-# What's in this CDK?
+## What's in this CDK?
 
 In this stack, there are various recources at play. In no particular order, the main resources includes the following;
 
@@ -110,7 +110,7 @@ In an architectural view, self-hosted version can be used in multiple ways depen
 
 ![Self-Hosted ServerlessDebugger](/img/self-hosted-serverless-debug-broker.png)
 
-## Environment Variables
+### Environment Variables
 
 | Variable Name             | Expectation   | Default       | Requires              | Description   |
 |---                        |---            |---            |---                    |---            |

@@ -133,3 +133,7 @@ a[class*="link"] span {
 .plugin-card-title{
   @apply text-xl font-semibold ml-4;
 }
+ol {
+  list-style: number;
+  margin-left: 24px;
+}
