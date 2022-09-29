@@ -4,15 +4,15 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "Serverless Debugger",
-  "tagline": "Serverless Debugger",
+  "title": "ServerlessDebugger",
+  "tagline": "Start debugging your lambdas with ease, no need to simulate, reproduce or redeploy.",
   "url": "https://serverlessddebugger.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "thundra",
-  "projectName": "Serverless Debugger",
+  "organizationName": "serverlessdebugger",
+  "projectName": "ServerlessDebugger",
   "presets": [
     [
       "classic",

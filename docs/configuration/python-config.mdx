@@ -88,7 +88,7 @@ def handler(event, context):
     print("Hello Serverless Debugger!")
 ```
 
-- Set SLSDEBUGGER_AUTH_TOKEN in environment variable.
+- Set `SLSDEBUGGER_AUTH_TOKEN` in environment variable.
 
 - Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
@@ -109,7 +109,7 @@ You can configure Serverless Debugger using **environment variables**.
 | SLSDEBUGGER_LOGS_ENABLE                             |  bool  |              false                    |
 | SLSDEBUGGER_WAIT_MAX                                |  int   |              60000(ms)                |
 | SLSDEBUGGER_IO_WAIT                                 |  int   |              2000(ms)                 |
-| SLSDEBUGGER_BROKER_PORT (Lambda debugger port)      |  int  |              444                      |
+| SLSDEBUGGER_BROKER_PORT (only your lambda)    |  int  |              444                      |
 | SLSDEBUGGER_BROKER_HOST                             |  string  | broker.service.serverlessdebugger.com |
 | SLSDEBUGGER_SESSION_NAME                            | string |              default                  |
 | SLSDEBUGGER_LAMBDA_HANDLER                          | string |  `your-original-lambda-handler`  |

@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Serverless Debugger',
-  tagline: 'Serverless Debugger',
+  title: 'ServerlessDebugger',
+  tagline: 'Start debugging your lambdas with ease, no need to simulate, reproduce or redeploy.',
   url: 'https://serverlessddebugger.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'thundra', // Usually your GitHub org/user name.
-  projectName: 'Serverless Debugger', // Usually your repo name.
+  organizationName: 'serverlessdebugger', // Usually your GitHub org/user name.
+  projectName: 'ServerlessDebugger', // Usually your repo name.
 
   presets: [
     [
