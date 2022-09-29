@@ -55,6 +55,11 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            href: 'https://www.serverlessdebugger.com/discord-invitation',
+            label: 'Discord',
+            position: 'right',
+          },
         ],
       },
       footer: {
