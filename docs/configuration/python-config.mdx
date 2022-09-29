@@ -45,6 +45,8 @@ arn:aws:lambda:${region}:545538059309:layer:slsdebugger-python:${latest-version}
 
 - Set SLSDEBUGGER_LAMBDA_HANDLER to your lambda handler in environment variable.
 
+- Change original lambda handler with `slsdebugger.handler.wrapper`
+
 - Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
 - Trigger your lambda function.
