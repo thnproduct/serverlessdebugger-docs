@@ -71,7 +71,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-d96": {
+  "/-48d": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -86,10 +86,6 @@
   "/configuration/python-8f8": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---configuration-python-9-d-8-0fb"
-  },
-  "/examples-b2d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---examples-675-0f7"
   },
   "/extensions/vs-code-85d": {
     "component": "component---theme-doc-item-178-a40",

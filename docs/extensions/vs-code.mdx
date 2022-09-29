@@ -27,15 +27,15 @@ import {Container} from '@site/src/components/Container';
     <a href="https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger">See it on VS Code Marketplace</a>
   </Step>
   <Step step="2" stepHeader="Get your Debug Token">
-    <a href="https://app.serverlessdebugger.com">Sign up for ServerlessDebugger</a> and get your <code>THUNDRA_AGENT_LAMBDA_DEBUGGER_AUTH_TOKEN</code> from <a href="https://app.serverlessdebugger.com/debug">this page</a>.
+    <a href="https://app.serverlessdebugger.com">Sign up for ServerlessDebugger</a> and get your <code>SLSDEBUGGER_AUTH_TOKEN</code> from <a href="https://app.serverlessdebugger.com/debug">this page</a>.
   </Step>
   <Step step="3" stepHeader="Edit VS Code and AWS Environment variables">
   <ul>
     <li>
-      Open the Command Palette <code>(⇧⌘P) or (Ctrl + Shift + P)</code> and select <strong>Thundra: Edit Configuration</strong> command.
+      Open the Command Palette <code>(⇧⌘P) or (Ctrl + Shift + P)</code> and select <strong>ServerlessDebugger: Edit Configuration</strong> command.
       <br/><br/>
       <img src='/img/vscode-commands.png' alt="VS Code Status Bar" />
-      <small>VS Code Command Panel, select Thundra: Edit Configuration</small>
+      <small>VS Code Command Panel, select ServerlessDebugger: Edit Configuration</small>
       <br/><br/>
     </li>
     <li>
@@ -47,7 +47,7 @@ import {Container} from '@site/src/components/Container';
   </ul>
   </Step>
   <Step step="4" stepHeader="Edit AWS Environment variables">
-    Go to your <strong>AWS Console</strong> and set your auth token value with the <code>THUNDRA_AGENT_LAMBDA_DEBUGGER_AUTH_TOKEN</code> key as your environment variable.
+    Go to your <strong>AWS Console</strong> and set your auth token value with the <code>SLSDEBUGGER_AUTH_TOKEN</code> key as your environment variable.
     <br/><br/>
     <img src='/img/awsconsole-authtoken.png' alt="VS Code Status Bar" />
   </Step>
@@ -62,14 +62,13 @@ If you need any help, please [join our Discord channel](https://www.serverlessde
 
 :::
 
-
 ## How to use
 
 After completing the installation steps, follow the guides below to start using Lambda Debugger.
 
 <Container>
   <Step step="▶️" stepHeader="Start debugger">
-    Click on the “Start ServerlessDebugger Debugger” button on the Status Bar. You can also execute the command Thundra: Start Debugger to start the debugging session.
+    Click on the “Start ServerlessDebugger Debugger” button on the Status Bar. You can also execute the command ServerlessDebugger: Start Debugger to start the debugging session.
     <br/><br/>
     <img src='/img/vscode-status-bar.png' alt="VS Code Status Bar" />
   </Step>
@@ -105,7 +104,8 @@ You can access all of the above commands from the command palette ```(Cmd+Shift+
 
 ## Self-Hosted Broker
 
-A self-hosted instance of the broker that provides the necessary functionality for online debugging can be installed on your own AWS account using our CloudFormation template or our CDK application. Please follow [this guide](#) to learn more.
+A self-hosted instance of the broker that provides the necessary functionality for online debugging can be installed 
+on your own AWS account using our CloudFormation template or our CDK application. Please follow [this guide](/self-hosted-broker/CloudFormation) to learn more.
 
 ## Issues
 

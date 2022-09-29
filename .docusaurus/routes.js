@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','d96'),
+    component: ComponentCreator('/','48d'),
     routes: [
       {
         path: '/',
@@ -92,12 +92,6 @@ export default [
       {
         path: '/configuration/python',
         component: ComponentCreator('/configuration/python','8f8'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/examples',
-        component: ComponentCreator('/examples','b2d'),
         exact: true,
         'sidebar': "sidebar"
       },

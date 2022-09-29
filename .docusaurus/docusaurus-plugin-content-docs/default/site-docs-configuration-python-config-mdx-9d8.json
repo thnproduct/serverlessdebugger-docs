@@ -2,7 +2,7 @@
   "unversionedId": "configuration/python-config",
   "id": "configuration/python-config",
   "title": "Python",
-  "description": "Using Layers",
+  "description": "Pyversions",
   "source": "@site/docs/configuration/python-config.mdx",
   "sourceDirName": "configuration",
   "slug": "/configuration/python",

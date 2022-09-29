@@ -21,11 +21,6 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "examples",
-              "path": "/examples",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "extensions/vs-code",
               "path": "/extensions/vs-code",
               "sidebar": "sidebar"

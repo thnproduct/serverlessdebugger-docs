@@ -7,15 +7,7 @@ sidebar_position: 2
 [![Pyversions](https://img.shields.io/pypi/pyversions/slsdebugger.svg?style=flat)](https://pypi.org/project/slsdebugger/)
 [![PyPI](https://img.shields.io/pypi/v/slsdebugger.svg)](https://pypi.org/project/slsdebugger/)
 
-Debug your marvelous python lambda with serverless debugger by [Thundra](https://www.serverlessdebugger.com)!
-
-## Contents
-
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Getting Help](#getting-help)
-- [Opening Issues](#opening-issues)
-
+Debug your marvelous Python Lambda with ServerlessDebugger by [Thundra](https://www.serverlessdebugger.com)!
   
 ## Installation
 
@@ -28,7 +20,7 @@ Debug your marvelous python lambda with serverless debugger by [Thundra](https:/
 - Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
 ![Command Palette](/img/serverless-debugger-palette.png)
 
-- Set **SLSDEBUGGER_AUTH_TOKEN** also by your authentication token to your lambda environment.
+- Set `SLSDEBUGGER_AUTH_TOKEN` also by your authentication token to your lambda environment.
 
 - Follow one of the following two steps.
 ### Using Serverless Debugger Lambda Layer
@@ -37,13 +29,14 @@ Debug your marvelous python lambda with serverless debugger by [Thundra](https:/
 ```
 arn:aws:lambda:${region}:545538059309:layer:slsdebugger-python:${latest-version} 
 ```
-- Latest version of the Serverless Debugger Python Layer ![Serverless Debugger Python Layer](https://api.globadge.com/v1/badgen/aws/lambda/layer/latest-version/us-west-2/545538059309/slsdebugger-python)
+- Latest version: ![Serverless Debugger Python Layer](https://api.globadge.com/v1/badgen/aws/lambda/layer/latest-version/us-west-2/545538059309/slsdebugger-python)
 
-- Supported regions: ap-northeast-1, ap-northeast-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-east-1, ca-central-1, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2
+- Supported regions: 
+    - ap-northeast-1, ap-northeast-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-east-1, ca-central-1, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2
 
-- Set SLSDEBUGGER_AUTH_TOKEN in environment variable.
+- Set `SLSDEBUGGER_AUTH_TOKEN` in environment variable.
 
-- Set SLSDEBUGGER_LAMBDA_HANDLER to your lambda handler in environment variable.
+- Set `SLSDEBUGGER_LAMBDA_HANDLER` to your lambda handler in environment variable.
 
 - Change original lambda handler with `slsdebugger.handler.wrapper`
 

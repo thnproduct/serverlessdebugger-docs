@@ -15,12 +15,6 @@
         "docId": "intro"
       },
       {
-        "type": "link",
-        "label": "Examples",
-        "href": "/examples",
-        "docId": "examples"
-      },
-      {
         "type": "category",
         "label": "Extensions",
         "collapsible": false,
@@ -86,13 +80,7 @@
     "configuration/python-config": {
       "id": "configuration/python-config",
       "title": "Python",
-      "description": "Using Layers",
-      "sidebar": "sidebar"
-    },
-    "examples": {
-      "id": "examples",
-      "title": "Examples",
-      "description": "In progress",
+      "description": "Pyversions",
       "sidebar": "sidebar"
     },
     "extensions/vs-code": {

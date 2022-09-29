@@ -16,8 +16,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Examples",
-    "permalink": "/examples"
+    "title": "Introduction",
+    "permalink": "/"
   },
   "next": {
     "title": "NodeJS",

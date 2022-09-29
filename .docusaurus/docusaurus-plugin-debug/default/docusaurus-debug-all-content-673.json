@@ -47,7 +47,7 @@
               "unversionedId": "configuration/python-config",
               "id": "configuration/python-config",
               "title": "Python",
-              "description": "Using Layers",
+              "description": "Pyversions",
               "source": "@site/docs/configuration/python-config.mdx",
               "sourceDirName": "configuration",
               "slug": "/configuration/python",
@@ -71,32 +71,6 @@
               }
             },
             {
-              "unversionedId": "examples",
-              "id": "examples",
-              "title": "Examples",
-              "description": "In progress",
-              "source": "@site/docs/examples.mdx",
-              "sourceDirName": ".",
-              "slug": "/examples",
-              "permalink": "/examples",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "slug": "/examples"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Introduction",
-                "permalink": "/"
-              },
-              "next": {
-                "title": "VS Code",
-                "permalink": "/extensions/vs-code"
-              }
-            },
-            {
               "unversionedId": "extensions/vs-code",
               "id": "extensions/vs-code",
               "title": "VS Code",
@@ -114,8 +88,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Examples",
-                "permalink": "/examples"
+                "title": "Introduction",
+                "permalink": "/"
               },
               "next": {
                 "title": "NodeJS",
@@ -140,8 +114,8 @@
               },
               "sidebar": "sidebar",
               "next": {
-                "title": "Examples",
-                "permalink": "/examples"
+                "title": "VS Code",
+                "permalink": "/extensions/vs-code"
               }
             },
             {
@@ -198,10 +172,6 @@
               {
                 "type": "doc",
                 "id": "intro"
-              },
-              {
-                "type": "doc",
-                "id": "examples"
               },
               {
                 "type": "category",
