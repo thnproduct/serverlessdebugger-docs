@@ -19,9 +19,5 @@
   "previous": {
     "title": "Python",
     "permalink": "/configuration/python"
-  },
-  "next": {
-    "title": "CloudFormation",
-    "permalink": "/self-hosted-broker/CloudFormation"
   }
 }

@@ -34,11 +34,6 @@
               "id": "self-hosted/aws-cdk",
               "path": "/self-hosted-broker/aws-cdk",
               "sidebar": "sidebar"
-            },
-            {
-              "id": "self-hosted/CloudFormation-config",
-              "path": "/self-hosted-broker/CloudFormation",
-              "sidebar": "sidebar"
             }
           ],
           "sidebars": {

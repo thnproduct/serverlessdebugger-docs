@@ -2,7 +2,7 @@
   "unversionedId": "configuration/nodejs-config",
   "id": "configuration/nodejs-config",
   "title": "NodeJS",
-  "description": "Using Layers",
+  "description": "Installation",
   "source": "@site/docs/configuration/nodejs-config.mdx",
   "sourceDirName": "configuration",
   "slug": "/configuration/nodejs",

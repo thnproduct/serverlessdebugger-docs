@@ -19,14 +19,14 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/burakkantarci/Dev/srv-debugger-docs/sidebars.js",
+          "sidebarPath": "E:\\dev\\serverlessdebugger-docs\\sidebars.js",
           "sidebarCollapsible": false
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/burakkantarci/Dev/srv-debugger-docs/src/css/custom.css"
+          "customCss": "E:\\dev\\serverlessdebugger-docs\\src\\css\\custom.css"
         }
       }
     ]
