@@ -12,15 +12,15 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/burakkantarci/Dev/srv-debugger-docs/sidebars.js",
-          "contentPath": "/Users/burakkantarci/Dev/srv-debugger-docs/docs",
-          "contentPathLocalized": "/Users/burakkantarci/Dev/srv-debugger-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "E:\\dev\\serverlessdebugger-docs\\sidebars.js",
+          "contentPath": "E:\\dev\\serverlessdebugger-docs\\docs",
+          "contentPathLocalized": "E:\\dev\\serverlessdebugger-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "configuration/nodejs-config",
               "id": "configuration/nodejs-config",
               "title": "NodeJS",
-              "description": "Using Layers",
+              "description": "Installation",
               "source": "@site/docs/configuration/nodejs-config.mdx",
               "sourceDirName": "configuration",
               "slug": "/configuration/nodejs",
@@ -139,32 +139,6 @@
               "previous": {
                 "title": "Python",
                 "permalink": "/configuration/python"
-              },
-              "next": {
-                "title": "CloudFormation",
-                "permalink": "/self-hosted-broker/CloudFormation"
-              }
-            },
-            {
-              "unversionedId": "self-hosted/CloudFormation-config",
-              "id": "self-hosted/CloudFormation-config",
-              "title": "CloudFormation",
-              "description": "",
-              "source": "@site/docs/self-hosted/CloudFormation-config.mdx",
-              "sourceDirName": "self-hosted",
-              "slug": "/self-hosted-broker/CloudFormation",
-              "permalink": "/self-hosted-broker/CloudFormation",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "slug": "/self-hosted-broker/CloudFormation"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Self-Hosted CDK",
-                "permalink": "/self-hosted-broker/aws-cdk"
               }
             }
           ],
@@ -211,10 +185,6 @@
                   {
                     "type": "doc",
                     "id": "self-hosted/aws-cdk"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "self-hosted/CloudFormation-config"
                   }
                 ]
               }

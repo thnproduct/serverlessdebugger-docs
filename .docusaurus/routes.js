@@ -75,7 +75,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','48d'),
+    component: ComponentCreator('/','5aa'),
     routes: [
       {
         path: '/',
@@ -104,12 +104,6 @@ export default [
       {
         path: '/self-hosted-broker/aws-cdk',
         component: ComponentCreator('/self-hosted-broker/aws-cdk','3e3'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/self-hosted-broker/CloudFormation',
-        component: ComponentCreator('/self-hosted-broker/CloudFormation','175'),
         exact: true,
         'sidebar': "sidebar"
       }

@@ -71,7 +71,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-48d": {
+  "/-5aa": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -94,9 +94,5 @@
   "/self-hosted-broker/aws-cdk-3e3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---self-hosted-broker-aws-cdk-9-db-1ca"
-  },
-  "/self-hosted-broker/CloudFormation-175": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---self-hosted-broker-cloud-formationdd-4-4be"
   }
 }
