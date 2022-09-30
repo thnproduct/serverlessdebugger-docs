@@ -66,7 +66,14 @@ arn:aws:lambda:${region}:545538059309:layer:slsdebugger-python:${latest-version}
 
 - Set `SLSDEBUGGER_AUTH_TOKEN` and `SLSDEBUGGER_LAMBDA_HANDLER` to your lambda handler as environment variable.
 
-Example for yml file
+- Change original lambda handler with `slsdebugger.handler.wrapper`
+
+- Open your handler file in VS Code, put breakpoint and start ServerlessDebugger extension.
+
+- Trigger your function.
+
+#### Example for yml file
+
 ```yaml
 service: hello-world
 frameworkVersion: '3'
@@ -91,12 +98,6 @@ functions:
           path: /hello
 ```
 
-
-- Change original lambda handler with `slsdebugger.handler.wrapper`
-
-- Open your handler file in VS Code, put breakpoint and start ServerlessDebugger extension.
-
-- Trigger your function.
 
 ### Manually Wrapping
 
