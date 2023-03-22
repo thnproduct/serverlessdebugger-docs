@@ -12,8 +12,8 @@
         <id>welcome</id>
         <link href="https://serverlessddebugger.com/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the Serverless Debugger]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to the Serverless Debugger</p>]]></content>
+        <summary type="html"><![CDATA[Welcome to the ServerlessDebugger]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the ServerlessDebugger</p>]]></content>
         <author>
             <name>Barış Kaya</name>
         </author>

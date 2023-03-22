@@ -10,7 +10,7 @@ import {Container} from '@site/src/components/Container';
 :::warning
 We will be sunsetting ServerlessDebugger by the **end of March 2023**. 
 
-However, we are excited to announce that we have been working on a new and open-source solution called **MerLoc**. MerLoc is a powerful debugging tool that builds on the successes of Serverless Debugger, while also incorporating new features and capabilities that will help to simplify your serverless development process even further.
+However, we are excited to announce that we have been working on a new and open-source solution called **MerLoc**. MerLoc is a powerful debugging tool that builds on the successes of ServerlessDebugger, while also incorporating new features and capabilities that will help to simplify your serverless development process even further.
  [Learn more](https://www.serverlessdebugger.com/blog/serverlessdebugger-is-sunsetting-for-the-good)
 :::
 
@@ -38,7 +38,7 @@ Install our plugin from VS Code Marketplace: [Debugger for AWS Lambda](https://m
   </Step>
   <Step step="3" stepHeader="Edit Configuration">
 
-Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
+Write "ServerlessDebugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
 <br/>
 
 ![Command Palette](/img/serverless-debugger-palette.png)
@@ -120,21 +120,21 @@ import slsdebugger
 
 @slsdebugger.lambda_wrapper
 def handler(event, context):
-    print("Hello Serverless Debugger!")
+    print("Hello ServerlessDebugger!")
 ```
 
 - Set `SLSDEBUGGER_AUTH_TOKEN` in environment variable.
 
-- Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+- Open your handler file in VSCODE, put breakpoint and start ServerlessDebugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
 - Trigger your lambda function.
 
 ## Configuration
-You can configure Serverless Debugger using **environment variables**.
+You can configure ServerlessDebugger using **environment variables**.
 
 #### 1. Lambda environment variables
 
-- Only required environment variable is `SLSDEBUGGER_AUTH_TOKEN`. If it is empty, Serverless Debugger only calls your function without debugging.
+- Only required environment variable is `SLSDEBUGGER_AUTH_TOKEN`. If it is empty, ServerlessDebugger only calls your function without debugging.
 
 | Name                                                | Type   |          Default Value                |
 |:----------------------------------------------------|:------:|:-------------------------------------:|
@@ -158,7 +158,7 @@ If you have any issue around using the library or the product, please don't hesi
 
 ## Opening Issues
 
-For any problem you encounter while using Serverless Debugger Python, Please feel free to contact us Discord. 
+For any problem you encounter while using ServerlessDebugger Python, Please feel free to contact us Discord. 
 
 When opening a new issue, please provide as much information about the environment:
 * Library version, Python runtime version, dependencies, operation system with version etc.

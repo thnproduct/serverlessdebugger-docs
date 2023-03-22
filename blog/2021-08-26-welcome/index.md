@@ -5,4 +5,4 @@ authors: [bariskaya, burakkantarci]
 tags: [hello, serverlessdebugger]
 ---
 
-Welcome to the Serverless Debugger
+Welcome to the ServerlessDebugger

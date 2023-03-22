@@ -12,8 +12,8 @@
             <link>https://serverlessddebugger.com/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Welcome to the Serverless Debugger]]></description>
-            <content:encoded><![CDATA[<p>Welcome to the Serverless Debugger</p>]]></content:encoded>
+            <description><![CDATA[Welcome to the ServerlessDebugger]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the ServerlessDebugger</p>]]></content:encoded>
             <category>hello</category>
             <category>serverlessdebugger</category>
         </item>

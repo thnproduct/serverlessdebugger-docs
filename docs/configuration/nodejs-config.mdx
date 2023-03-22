@@ -10,7 +10,7 @@ import {Container} from '@site/src/components/Container';
 :::warning
 We will be sunsetting ServerlessDebugger by the **end of March 2023**. 
 
-However, we are excited to announce that we have been working on a new and open-source solution called **MerLoc**. MerLoc is a powerful debugging tool that builds on the successes of Serverless Debugger, while also incorporating new features and capabilities that will help to simplify your serverless development process even further.
+However, we are excited to announce that we have been working on a new and open-source solution called **MerLoc**. MerLoc is a powerful debugging tool that builds on the successes of ServerlessDebugger, while also incorporating new features and capabilities that will help to simplify your serverless development process even further.
  [Learn more](https://www.serverlessdebugger.com/blog/serverlessdebugger-is-sunsetting-for-the-good)
 :::
 
@@ -34,7 +34,7 @@ Install our plugin from VS Code Marketplace: [Debugger for AWS Lambda](https://m
   </Step>
   <Step step="3" stepHeader="Edit Configuration">
 
-Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
+Write "ServerlessDebugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
 <br/>
 
 ![Command Palette](/img/serverless-debugger-palette.png)
@@ -56,13 +56,13 @@ Follow one of the following two steps.
   </Step>
 </Container>
 
-### Using Serverless Debugger Lambda Layer
+### Using ServerlessDebugger Lambda Layer
 
-- Add Serverless Debugger lambda layer!
+- Add ServerlessDebugger lambda layer!
 ```
 arn:aws:lambda:${region}:545538059309:layer:slsdebugger-nodejs:${latest-version} 
 ```
-- Latest version of the Serverless Debugger Nodejs Layer ![Serverless Debugger Nodejs Layer](https://api.globadge.com/v1/badgen/aws/lambda/layer/latest-version/us-west-2/545538059309/slsdebugger-nodejs)
+- Latest version of the ServerlessDebugger Nodejs Layer ![ServerlessDebugger Nodejs Layer](https://api.globadge.com/v1/badgen/aws/lambda/layer/latest-version/us-west-2/545538059309/slsdebugger-nodejs)
 
 - Supported regions: ap-northeast-1, ap-northeast-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-east-1, ca-central-1, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2
 
@@ -78,7 +78,7 @@ arn:aws:lambda:${region}:545538059309:layer:slsdebugger-nodejs:${latest-version}
 
 - Set lambda handler to  `slsdebugger_handler.wrapper`
 
-- Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+- Open your handler file in VSCODE, put breakpoint and start ServerlessDebugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
 - Trigger your lambda function.
 ### Manually Wrapping
@@ -99,16 +99,16 @@ export const handler = slsDebugger()((event: any, context: any, callback: any) =
 
 - Set `SLSDEBUGGER_AUTH_TOKEN` in environment variable.
 
-- Open your handler file in VSCODE, put breakpoint and start Serverless Debugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+- Open your handler file in VSCODE, put breakpoint and start ServerlessDebugger extension downloaded from [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
 
 - Trigger your lambda function.
 
 ## Configuration
-You can configure Serverless Debugger using **environment variables**.
+You can configure ServerlessDebugger using **environment variables**.
 
 #### 1. Environment variables
 
-- Only required environment variable is **SLSDEBUGGER_AUTH_TOKEN**. If it is empty, Serverless Debugger only calls your function without debugging.
+- Only required environment variable is **SLSDEBUGGER_AUTH_TOKEN**. If it is empty, ServerlessDebugger only calls your function without debugging.
 
 | Name                                                | Type   |          Default Value                |
 |:----------------------------------------------------|:------:|:-------------------------------------:|
@@ -135,4 +135,4 @@ If you have any issue around using the library or the product, please don't hesi
 
 ## Opening Issues
 
-For any problem you encounter while using Serverless Debugger Node.js, Please feel free to contact us via our Discord channel. 
+For any problem you encounter while using ServerlessDebugger Node.js, Please feel free to contact us via our Discord channel. 
