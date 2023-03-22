@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Introduction",
-  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+  "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/",

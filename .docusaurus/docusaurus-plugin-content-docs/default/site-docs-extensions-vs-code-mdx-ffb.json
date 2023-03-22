@@ -2,7 +2,7 @@
   "unversionedId": "extensions/vs-code",
   "id": "extensions/vs-code",
   "title": "VS Code",
-  "description": "Marketplace Download",
+  "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
   "source": "@site/docs/extensions/vs-code.mdx",
   "sourceDirName": "extensions",
   "slug": "/extensions/vs-code",

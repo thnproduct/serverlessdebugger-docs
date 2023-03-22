@@ -68,31 +68,31 @@
     "configuration/nodejs-config": {
       "id": "configuration/nodejs-config",
       "title": "NodeJS",
-      "description": "Installation",
+      "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
       "sidebar": "sidebar"
     },
     "configuration/python-config": {
       "id": "configuration/python-config",
       "title": "Python",
-      "description": "Pyversions",
+      "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
       "sidebar": "sidebar"
     },
     "extensions/vs-code": {
       "id": "extensions/vs-code",
       "title": "VS Code",
-      "description": "Marketplace Download",
+      "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
       "sidebar": "sidebar"
     },
     "intro": {
       "id": "intro",
       "title": "Introduction",
-      "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+      "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
       "sidebar": "sidebar"
     },
     "self-hosted/aws-cdk": {
       "id": "self-hosted/aws-cdk",
       "title": "Self-Hosted CDK",
-      "description": "This is the self-hosted version of ServerlessDebugger. ServerlessDebugger brings the traditional debugging experience to the AWS Lambdas. It comes in as a VSCode extension and can be installed on your VSCode IDE in seconds and enable you to put breakpoints in your Lambda functions. All done with no code changes!",
+      "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
       "sidebar": "sidebar"
     }
   }

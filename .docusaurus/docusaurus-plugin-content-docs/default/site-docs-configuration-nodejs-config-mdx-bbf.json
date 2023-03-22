@@ -2,7 +2,7 @@
   "unversionedId": "configuration/nodejs-config",
   "id": "configuration/nodejs-config",
   "title": "NodeJS",
-  "description": "Installation",
+  "description": "We will be sunsetting ServerlessDebugger by the end of March 2023.",
   "source": "@site/docs/configuration/nodejs-config.mdx",
   "sourceDirName": "configuration",
   "slug": "/configuration/nodejs",

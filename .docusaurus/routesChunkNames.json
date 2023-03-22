@@ -1,98 +1,76 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
   "/blog-0d3": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blog-814-8ac",
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/archive-f4c": {
-    "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---blog-archiveb-2-f-393"
+    "component": "9e4087bc",
+    "archive": "b2f554cd"
   },
   "/blog/tags-e13": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+    "component": "01a85c17",
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
   },
   "/blog/tags/hello-038": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
+    "component": "6875c492",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed",
-    "listMetadata": "listMetadata---blog-tags-hello-664-70a"
+    "metadata": "30a24c52",
+    "listMetadata": "66406991"
   },
   "/blog/tags/serverlessdebugger-08e": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
+    "component": "6875c492",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "metadata": "metadata---blog-tags-serverlessdebugger-5-da-e20",
-    "listMetadata": "listMetadata---blog-tags-serverlessdebugger-228-061"
+    "metadata": "5da8f52b",
+    "listMetadata": "2282ba38"
   },
   "/blog/welcome-bfa": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
   "/-5aa": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---935-fcf"
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/-206": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---f-84-df3"
+    "component": "17896441",
+    "content": "f8409a7e"
   },
   "/configuration/nodejs-b86": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---configuration-nodejsbbf-228"
+    "component": "17896441",
+    "content": "bbf5ee4a"
   },
   "/configuration/python-8f8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---configuration-python-9-d-8-0fb"
+    "component": "17896441",
+    "content": "9d8a3c6c"
   },
   "/extensions/vs-code-85d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---extensions-vs-codeffb-b35"
+    "component": "17896441",
+    "content": "ffbaf58c"
   },
   "/self-hosted-broker/aws-cdk-3e3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---self-hosted-broker-aws-cdk-9-db-1ca"
+    "component": "17896441",
+    "content": "9dbb7b18"
   }
 }

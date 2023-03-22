@@ -19,14 +19,14 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "E:\\dev\\serverlessdebugger-docs\\sidebars.js",
+          "sidebarPath": "/Users/bariskaya/dev/thundra/serverlessdebugger-docs/sidebars.js",
           "sidebarCollapsible": false
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "E:\\dev\\serverlessdebugger-docs\\src\\css\\custom.css"
+          "customCss": "/Users/bariskaya/dev/thundra/serverlessdebugger-docs/src/css/custom.css"
         }
       }
     ]
@@ -54,7 +54,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2022 Thundra, Inc. Built with Docusaurus.",
+      "copyright": "Copyright © 2023 Thundra, Inc. Built with Docusaurus.",
       "links": []
     },
     "prism": {
